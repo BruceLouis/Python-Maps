@@ -25,7 +25,7 @@ def DetermineColor(num):
     else:
         return 'green'
 
-map = folium.Map(location = [37.5, -100], zoom_start = 6)
+map = folium.Map(location = [37.5, -100], zoom_start = 6, min_zoom = 5)
 feature_group = folium.FeatureGroup(name = "Death Count")
 
 data = pandas.read_csv("deaths2015data.csv")
