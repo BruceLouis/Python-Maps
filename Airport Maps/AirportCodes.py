@@ -41,6 +41,7 @@ for lat, lon, mun, cod, typ in zip(latitude, longitude, municipality, country_co
         feature_group.add_child(CreateMarker("closed-icon.png", mun, 10))
     
 map.add_child(feature_group)
+map.add_child(feature_group_balloonport)
 map.add_child(feature_group_heliport)
 map.add_child(feature_group_seaplane_base)
 map.add_child(feature_group_small_airport)
