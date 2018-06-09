@@ -101,7 +101,6 @@ venv.bak/
 .mypy_cache/
 
 # html files
-.html
-
+HTMLFiles/
 
 # End of https://www.gitignore.io/api/python
