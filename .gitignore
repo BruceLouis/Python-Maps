@@ -1,3 +1,4 @@
+
 # Created by https://www.gitignore.io/api/python
 
 ### Python ###
@@ -100,7 +101,5 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-# html files
-*.html
 
 # End of https://www.gitignore.io/api/python
