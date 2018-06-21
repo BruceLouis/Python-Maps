@@ -76,5 +76,5 @@ def login_client(firstname_arg, lastname_arg):
     row = cur.fetchall()
     conn.close()
     return row
-   
+
 connect()
