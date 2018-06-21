@@ -77,4 +77,11 @@ def login_client(firstname_arg, lastname_arg):
     conn.close()
     return row
 
+def add_savings_column():
+    conn = sqlite3.connect("clients.db")
+    cur = conn.cursor()
+    cur.execute("ALTER TABLE clients ADD column savings_balance REAL")
+    conn.commit()
+    conn.close()
+
 connect()

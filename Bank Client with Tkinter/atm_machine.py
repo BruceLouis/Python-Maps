@@ -4,6 +4,9 @@ import backend
 class Account:
 
     def __init__(self, window, window_2):
+        """ initialize all the buttons and text entry here
+            then gets hidden by calling hide_items()"""
+        self.id_key = IntVar()
         self.balance = DoubleVar()
         self.window = window
         self.window_2 = window_2
@@ -84,6 +87,7 @@ class Account:
 
     def login_command(self):
         selected_client = backend.login_client(self.first_name_value.get(), self.last_name_value.get())
+        self.id_key = selected_client[0][0]
         self.first_name_value = selected_client[0][1]
         self.last_name_value = selected_client[0][2]
         self.main_screen(self.first_name_value, self.last_name_value)
@@ -115,6 +119,7 @@ class Account:
        
     def withdraw(self, amount):
         self.balance -= amount
+        backend.update_balance(self.id_key, self.balance)
         self.main_screen(self.first_name_value, self.last_name_value)
         self.hide_items()
 
@@ -129,6 +134,7 @@ class Account:
 
     def deposit(self, amount):
         self.balance += amount
+        backend.update_balance(self.id_key, self.balance)
         self.main_screen(self.first_name_value, self.last_name_value)
         self.hide_items()
 
