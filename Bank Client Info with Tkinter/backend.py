@@ -68,5 +68,13 @@ def select_client(id_key):
     row = cur.fetchall()
     conn.close()
     return row
+
+def login_client(firstname_arg, lastname_arg):
+    conn = sqlite3.connect("clients.db")
+    cur = conn.cursor()
+    cur.execute("SELECT * FROM clients WHERE first_name = ? AND last_name = ?", (firstname_arg, lastname_arg))
+    row = cur.fetchall()
+    conn.close()
+    return row
    
 connect()

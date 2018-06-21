@@ -34,6 +34,7 @@ def open_menu():
     global new_window
 
     new_window = Toplevel()
+    new_window.wm_title("Client Information")
 
     greyed_first_name_entry = Entry(new_window)
     greyed_first_name_entry.grid(row = 0, column = 0)
@@ -122,6 +123,7 @@ def update_balance():
         
     global balance_window
     balance_window = Toplevel()
+    balance_window.wm_title("Client's Balance")
     
     first_name_label = Label(balance_window, text = selected_tuple[1])
     first_name_label.grid(row = 0, column = 0)
@@ -193,6 +195,7 @@ def open_clients_entry(event):
         
 
 window = Tk()
+window.wm_title("Clients")
 
 first_name_label = Label(window, text = "First Name")
 first_name_label.grid(row = 0, column = 0)
