@@ -41,7 +41,7 @@ class Account:
         self.view_balance_button = Button(self.window, text = "View Balance", command = self.view_balance)
         self.view_balance_button.grid(row = 3, column = 2)
     
-        self.transfer_button = Button(self.window, text = "Transfer")
+        self.transfer_button = Button(self.window, text = "Transfer", command = self.transfer_tab)
         self.transfer_button.grid(row = 4, column = 2)
 
         self.main_text = Text(self.window, width = 30, height = 7.5, wrap = WORD)
@@ -60,9 +60,19 @@ class Account:
         
         self.deposit_button = Button(self.window, text = "Deposit", command = lambda: self.deposit(self.deposit_value.get()))
         self.deposit_button.grid(row = 3, column = 0)
+
+        self.transfer_value = DoubleVar()
+        self.transfer_entry = Entry(self.window, textvariable = self.transfer_value)
+        self.transfer_entry.grid(row = 3, column = 0, columnspan = 2)
+        
+        self.transfer_button = Button(self.window, text = "Transfer", command = lambda: self.transfer(self.transfer_value.get()))
+        self.transfer_button.grid(row = 4, column = 0)    
+
+        self.transfer_cancel_button = Button(self.window, text = "Cancel", command = lambda: self.main_screen(self.first_name_value, self.last_name_value))
+        self.transfer_cancel_button.grid(row = 4, column = 1)        
         
         self.cancel_button = Button(self.window, text = "Cancel", command = lambda: self.main_screen(self.first_name_value, self.last_name_value))
-        self.cancel_button.grid(row = 3, column = 1)
+        self.cancel_button.grid(row = 3, column = 1)    
 
         self.back_button = Button(self.window, text = "Back", command = lambda: self.main_screen(self.first_name_value, self.last_name_value))
         self.back_button.grid(row = 3, column = 0)
@@ -75,6 +85,9 @@ class Account:
         self.withdraw_button.grid_remove()
         self.deposit_entry.grid_remove()
         self.deposit_button.grid_remove()
+        self.transfer_entry.grid_remove()
+        self.transfer_button.grid_remove()
+        self.transfer_cancel_button.grid_remove()
         self.cancel_button.grid_remove()
         self.back_button.grid_remove()
 
@@ -99,6 +112,7 @@ class Account:
         self.exit_button = Button(new_window, text = "Exit", command = self.window.destroy)
         self.exit_button.grid(row = 2, column = 1)
 
+        window_2.bind("<Return>", self.login_pressed_enter)
         window_2.protocol("WM_DELETE_WINDOW", self.disable_x)
 
     def login_command(self):
@@ -112,6 +126,9 @@ class Account:
         self.window.deiconify()
         self.window.attributes("-topmost", "true")
         self.window_2.destroy()
+
+    def login_pressed_enter(self, event):
+        self.login_command()
 
     def main_screen(self, f_name, l_name):
         self.hide_items()
@@ -184,8 +201,35 @@ class Account:
         self.main_screen(self.first_name_value, self.last_name_value)
         self.hide_items()
 
+    def transfer_tab(self):
+        self.hide_items()
+        self.main_text.configure(state = 'normal')        
+        self.main_text.delete("1.0", END)
+        self.main_text.insert(END, "How much would you like to transfer from your ")
+        if self.current_account == self.account[0]:
+            self.main_text.insert(END, self.current_account.capitalize() + " Account to Savings Account.")
+        else:
+            self.main_text.insert(END, self.current_account.capitalize() + " Account to Chequing Account.")
+            
+        self.transfer_entry.grid()
+        self.transfer_button.grid()
+        self.transfer_cancel_button.grid()
+        
+        self.main_text.configure(state = 'disable')
+        
     def transfer(self, amount):
-        self.chequing_balance -= amount
+        if self.current_account == self.account[0]:
+            self.chequing_balance -= amount
+            self.savings_balance += amount
+        else:
+            self.savings_balance -= amount
+            self.chequing_balance += amount
+            
+        backend.update_balance(self.id_key, 0, self.chequing_balance)
+        backend.update_balance(self.id_key, 1, self.savings_balance)       
+
+        self.main_screen(self.first_name_value, self.last_name_value)
+        self.hide_items()        
 
     def sink_buttons(self):
         if self.current_account == self.account[0]:
