@@ -76,7 +76,8 @@ def select_client(id_key):
 def login_client(firstname_arg, lastname_arg):
     conn = sqlite3.connect("clients.db")
     cur = conn.cursor()
-    cur.execute("SELECT * FROM clients WHERE first_name = ? AND last_name = ?", (firstname_arg, lastname_arg))
+    cur.execute("SELECT * FROM clients WHERE first_name = ? AND last_name = ? " +
+                "AND first_name IS NOT NULL AND last_name IS NOT NULL", (firstname_arg, lastname_arg))
     row = cur.fetchall()
     conn.close()
     return row

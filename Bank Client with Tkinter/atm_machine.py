@@ -9,6 +9,7 @@ class Account:
         """
         
         self.id_key = IntVar()
+        self.other_login_windows = False
         
         self.chequing_balance = DoubleVar()
         self.savings_balance = DoubleVar()
@@ -117,18 +118,33 @@ class Account:
 
     def login_command(self):
         selected_client = backend.login_client(self.first_name_value.get(), self.last_name_value.get())
-        self.id_key = selected_client[0][0]
-        self.first_name_value = selected_client[0][1]
-        self.last_name_value = selected_client[0][2]
-        self.main_screen(self.first_name_value, self.last_name_value)
-        self.chequing_balance = selected_client[0][9]
-        self.savings_balance = selected_client[0][10]
-        self.window.deiconify()
-        self.window.attributes("-topmost", "true")
-        self.window_2.destroy()
+        if selected_client:
+            self.id_key = selected_client[0][0]
+            self.first_name_value = selected_client[0][1]
+            self.last_name_value = selected_client[0][2]
+            self.main_screen(self.first_name_value, self.last_name_value)
+            self.chequing_balance = selected_client[0][9]
+            self.savings_balance = selected_client[0][10]
+            self.window.deiconify()
+            self.window.attributes("-topmost", "true")
+            self.window_2.destroy()
+        else:       
+            self.other_login_windows = True
+            self.no_client = Toplevel()
+            self.no_client.attributes("-topmost", "true")
+            self.no_client.protocol("WM_DELETE_WINDOW", lambda: self.destroy_no_client(self.no_client))            
+            self.label_1 = Label(self.no_client, text = "Client does not exist")
+            self.label_1.grid(row = 0, column = 0)
+            self.button_1 = Button(self.no_client, text = "OK", command = lambda: self.destroy_no_client(self.no_client))
+            self.button_1.grid(row = 1, column = 0)
+
+    def destroy_no_client(self, yes_window):
+        yes_window.destroy()
+        self.other_login_windows = False
 
     def login_pressed_enter(self, event):
-        self.login_command()
+        if not self.other_login_windows:
+            self.login_command()        
 
     def main_screen(self, f_name, l_name):
         self.hide_items()
