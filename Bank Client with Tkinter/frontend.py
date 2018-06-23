@@ -14,7 +14,60 @@ def confirm_exit(update_function, exit_function):
 
     no_button = Button(personal_info_exit_window, text = "No", command = exit_function)
     no_button.grid(row = 1, column = 1)
+  
+def get_selected_row(event):
+    try:
+        global selected_tuple
+        global extended_tuple
+        index = listbox.curselection()[0]
+        selected_tuple = listbox.get(index)
+        selected_tuple = selected_tuple.split()
+        extended_tuple = backend.select_client(selected_tuple[0])
+        first_name_entry.delete(0,END)
+        first_name_entry.insert(END, selected_tuple[1])
+        last_name_entry.delete(0,END)
+        last_name_entry.insert(END, selected_tuple[2])
+        gender_entry.delete(0,END)
+        gender_entry.insert(END, selected_tuple[3])
 
+        menu_activation('normal')
+
+    except IndexError:
+        pass
+
+def view_clients():
+    client_rows = backend.view()
+    listbox.delete(0, END)
+    
+    for clients in client_rows:
+        print_string = str(clients[0]) + " " + str(clients[1]) + " " + str(clients[2]) + " " + str(clients[3] + " : $" + str(clients[9]))
+        if clients[10] is not None:
+            listbox.insert(END, print_string + " $" + str(clients[10]))
+        else:
+            listbox.insert(END, print_string)
+
+def add_client():
+    backend.insert_basic(first_name_entry_value.get(), last_name_entry_value.get(), gender_entry_value.get())
+    listbox.delete(0, END)
+    listbox.insert(END, (first_name_entry_value.get(), last_name_entry_value.get(), gender_entry_value.get()))
+
+def search_clients():
+    searched_clients = backend.search(first_name_entry_value.get(), last_name_entry_value.get(), gender_entry_value.get())
+    listbox.delete(0, END)
+    
+    for clients in searched_clients:
+        listbox.insert(END, str(clients[0]) + " " + str(clients[1]) + " " + str(clients[2]) + " " + str(clients[3]))
+
+def menu_activation(on_or_off):
+    open_entry_button.configure(state = on_or_off)
+    update_balance_button.configure(state = on_or_off)
+    delete_button.configure(state = on_or_off)
+
+def delete_client():
+    backend.delete(selected_tuple[0])
+
+def open_clients_entry(event):
+    open_menu()
     
 def open_menu():
 
@@ -109,21 +162,46 @@ def open_menu():
 
 def update_balance():
     
-    def update_client_balance():
-        backend.update_balance(selected_tuple[0], float(balance_entry_value.get()))
-        balance_window.destroy()
+    def update_client_balance(balance_arg):
+        try:
+            if current_account == account[0]:
+                backend.update_balance(selected_tuple[0], 0, float(balance_arg.get()))
+                balance_window.destroy()
+            elif current_account == account[1]:
+                backend.update_balance(selected_tuple[0], 1, float(balance_arg.get()))      
+                balance_window.destroy()
+        except NameError:
+            pass
 
     def confirm_save_balance_info():
-        update_client_balance()
+        update_client_balance(balance_entry_value)
         personal_info_exit_window.destroy()
 
     def balance_exit():
         personal_info_exit_window.destroy()
         balance_window.destroy()
+
+    def account_switch(acc_num):
+        balance_entry.delete(0, END)
+        global current_account
+        current_account = account[acc_num]
+        if current_account == account[0]:
+            savings_button.configure(relief = RAISED)
+            chequing_button.configure(relief = SUNKEN)
+            if extended_tuple[0][9] is not None:
+                balance_entry.insert(END, extended_tuple[0][9])
+        else:
+            savings_button.configure(relief = SUNKEN)
+            chequing_button.configure(relief = RAISED)
+            if extended_tuple[0][10] is not None:
+                balance_entry.insert(END, extended_tuple[0][10])
+        update_button.configure(state = 'normal')    
         
     global balance_window
     balance_window = Toplevel()
     balance_window.wm_title("Client's Balance")
+    
+    account = ["chequing", "savings"]
     
     first_name_label = Label(balance_window, text = selected_tuple[1])
     first_name_label.grid(row = 0, column = 0)
@@ -136,63 +214,20 @@ def update_balance():
 
     balance_entry_value = StringVar()
     balance_entry = Entry(balance_window, textvariable = balance_entry_value)
-    balance_entry.grid(row = 1, column = 1)
-    if extended_tuple[0][9] is not None:
-        balance_entry.insert(END, extended_tuple[0][9])  
+    balance_entry.grid(row = 1, column = 1, columnspan = 2)
 
-    update_button = Button(balance_window, width = 20, text = "Update", command = update_client_balance)
+    chequing_button = Button(balance_window, width = 10, text = "Chequing", command = lambda: account_switch(0))
+    chequing_button.grid(row = 1, column = 3)
+
+    savings_button = Button(balance_window, width = 10, text = "Savings", command = lambda: account_switch(1))
+    savings_button.grid(row = 1, column = 4)
+
+    update_button = Button(balance_window, width = 20, text = "Update", command = lambda: update_client_balance(balance_entry_value))
     update_button.grid(row = 4, column = 0, columnspan = 2)
+    update_button.configure(state = 'disable')
 
     close_button = Button(balance_window, width = 20, text = "Close", command = lambda: confirm_exit(confirm_save_balance_info, balance_exit))
-    close_button.grid(row = 4, column = 2, columnspan = 2)
-  
-def get_selected_row(event):
-    try:
-        global selected_tuple
-        global extended_tuple
-        index = listbox.curselection()[0]
-        selected_tuple = listbox.get(index)
-        selected_tuple = selected_tuple.split()
-        extended_tuple = backend.select_client(selected_tuple[0])
-        first_name_entry.delete(0,END)
-        first_name_entry.insert(END, selected_tuple[1])
-        last_name_entry.delete(0,END)
-        last_name_entry.insert(END, selected_tuple[2])
-        gender_entry.delete(0,END)
-        gender_entry.insert(END, selected_tuple[3])
-
-    except IndexError:
-        pass
-
-def view_clients():
-    client_rows = backend.view()
-    listbox.delete(0, END)
-    
-    for clients in client_rows:
-        print_string = str(clients[0]) + " " + str(clients[1]) + " " + str(clients[2]) + " " + str(clients[3])
-        if clients[9] is not None:
-            listbox.insert(END, print_string + ": $" + str(clients[9]))
-        else:
-            listbox.insert(END, print_string)
-
-def add_client():
-    backend.insert_basic(first_name_entry_value.get(), last_name_entry_value.get(), gender_entry_value.get())
-    listbox.delete(0, END)
-    listbox.insert(END, (first_name_entry_value.get(), last_name_entry_value.get(), gender_entry_value.get()))
-
-def search_clients():
-    searched_clients = backend.search(first_name_entry_value.get(), last_name_entry_value.get(), gender_entry_value.get())
-    listbox.delete(0, END)
-    
-    for clients in searched_clients:
-        listbox.insert(END, str(clients[0]) + " " + str(clients[1]) + " " + str(clients[2]) + " " + str(clients[3]))
-
-def delete_client():
-    backend.delete(selected_tuple[0])
-
-def open_clients_entry(event):
-    open_menu()
-        
+    close_button.grid(row = 4, column = 2, columnspan = 2)     
 
 window = Tk()
 window.wm_title("Clients")
@@ -250,5 +285,7 @@ delete_button.grid(row = 6, column = 5)
 
 close_button = Button(window, width = 12, text = "Close", command = window.destroy)
 close_button.grid(row = 7, column = 5)
+
+menu_activation('disable')
 
 window.mainloop()

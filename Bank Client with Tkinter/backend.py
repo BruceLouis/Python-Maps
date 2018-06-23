@@ -6,7 +6,8 @@ def connect():
     cur.execute("CREATE TABLE IF NOT EXISTS clients " + 
                 "(id INTEGER PRIMARY KEY AUTOINCREMENT, first_name TEXT," +
                 " last_name TEXT, gender TEXT, address TEXT, city TEXT," +
-                " province TEXT, phone_number INTEGER, zip_code TEXT, balance REAL)")
+                " province TEXT, phone_number INTEGER, zip_code TEXT," +
+                " chequing_balance REAL, savings_balance REAL)")
     conn.commit()
     conn.close()
 
@@ -54,10 +55,13 @@ def update_personal(id_key, address_arg, city_arg, province_arg, phonenumber_arg
     conn.commit()
     conn.close()
 
-def update_balance(id_key, balance_arg):
+def update_balance(id_key, acc_num, balance_arg):
     conn = sqlite3.connect("clients.db")
     cur = conn.cursor()
-    cur.execute("UPDATE clients SET balance = ? WHERE id = ?", (balance_arg, id_key))
+    if acc_num == 0:
+        cur.execute("UPDATE clients SET balance = ? WHERE id = ?", (balance_arg, id_key))
+    else:
+        cur.execute("UPDATE clients SET savings_balance = ? WHERE id = ?", (balance_arg, id_key))              
     conn.commit()
     conn.close()
     
