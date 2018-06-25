@@ -2,7 +2,12 @@ from tkinter import *
 import backend
 
 class MainMenu:
-
+    """
+    certain buttons are disabled when the window first starts up
+    this is due to its reliance for client's id info
+    as soon as a client gets selected on the listbox and
+    get_selected_row finally gets invoked, all buttons will be enabled
+    """
     def __init__(self, window):
 
         window.wm_title("Client Information")
@@ -65,7 +70,11 @@ class MainMenu:
         
 
     def get_selected_row(self, event):
-        
+
+        """
+        try & catch/except prevents the program from showing an error
+        whenever a blank listbox gets selected
+        """
         try:
             index = self.listbox.curselection()[0]
             self.selected_tuple = self.listbox.get(index)
