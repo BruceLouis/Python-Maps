@@ -1,291 +1,291 @@
 from tkinter import *
 import backend
 
-def confirm_exit(update_function, exit_function):
-    
-    global personal_info_exit_window
-    personal_info_exit_window = Toplevel()
+class MainMenu:
 
-    ask_label = Label(personal_info_exit_window, text = "Do you want to save changes?")
-    ask_label.grid(row = 0, column = 0, columnspan = 2)
+    def __init__(self, window):
 
-    yes_button = Button(personal_info_exit_window, text = "Yes", command = update_function)
-    yes_button.grid(row = 1, column = 0)
+        window.wm_title("Client Information")
 
-    no_button = Button(personal_info_exit_window, text = "No", command = exit_function)
-    no_button.grid(row = 1, column = 1)
-  
-def get_selected_row(event):
-    try:
-        global selected_tuple
-        global extended_tuple
-        index = listbox.curselection()[0]
-        selected_tuple = listbox.get(index)
-        selected_tuple = selected_tuple.split()
-        extended_tuple = backend.select_client(selected_tuple[0])
-        first_name_entry.delete(0,END)
-        first_name_entry.insert(END, selected_tuple[1])
-        last_name_entry.delete(0,END)
-        last_name_entry.insert(END, selected_tuple[2])
-        gender_entry.delete(0,END)
-        gender_entry.insert(END, selected_tuple[3])
+        self.first_name_label = Label(window, text = "First Name")
+        self.first_name_label.grid(row = 0, column = 0)
 
-        menu_activation('normal')
+        self.first_name_value = StringVar()
+        self.first_name_entry = Entry(window, textvariable = self.first_name_value)
+        self.first_name_entry.grid(row = 0, column = 1)
 
-    except IndexError:
-        pass
+        self.last_name_label = Label(window, text = "Last Name")
+        self.last_name_label.grid(row = 0, column = 2)
 
-def view_clients():
-    client_rows = backend.view()
-    listbox.delete(0, END)
-    
-    for clients in client_rows:
-        print_string = str(clients[0]) + " " + str(clients[1]) + " " + str(clients[2]) + " " + str(clients[3] + " : $" + str(clients[9]))
-        if clients[10] is not None:
-            listbox.insert(END, print_string + " $" + str(clients[10]))
-        else:
-            listbox.insert(END, print_string)
+        self.last_name_value = StringVar()
+        self.last_name_entry = Entry(window, textvariable = self.last_name_value)
+        self.last_name_entry.grid(row = 0, column = 3)
 
-def add_client():
-    backend.insert_basic(first_name_entry_value.get(), last_name_entry_value.get(), gender_entry_value.get())
-    listbox.delete(0, END)
-    listbox.insert(END, (first_name_entry_value.get(), last_name_entry_value.get(), gender_entry_value.get()))
+        self.gender_label = Label(window, text = "Gender")
+        self.gender_label.grid(row = 0, column = 4)
 
-def search_clients():
-    searched_clients = backend.search(first_name_entry_value.get(), last_name_entry_value.get(), gender_entry_value.get())
-    listbox.delete(0, END)
-    
-    for clients in searched_clients:
-        listbox.insert(END, str(clients[0]) + " " + str(clients[1]) + " " + str(clients[2]) + " " + str(clients[3]))
+        self.gender_value = StringVar()
+        self.gender_entry = Entry(window, textvariable = self.gender_value)
+        self.gender_entry.grid(row = 0, column = 5)
 
-def menu_activation(on_or_off):
-    open_entry_button.configure(state = on_or_off)
-    update_balance_button.configure(state = on_or_off)
-    delete_button.configure(state = on_or_off)
+        self.scroll_bar = Scrollbar(window)
+        self.scroll_bar.grid(row = 1, column = 4, rowspan = 6)
 
-def delete_client():
-    backend.delete(selected_tuple[0])
-
-def open_clients_entry(event):
-    open_menu()
-    
-def open_menu():
-
-    def update_client_info():
-        backend.update_personal(selected_tuple[0], address_entry_value.get(), city_entry_value.get(),
-                                province_entry_value.get(), phone_number_entry_value.get(), zip_code_entry_value.get())
-        new_window.destroy()
+        self.listbox = Listbox(window, width = 75, height = 10)
+        self.listbox.grid(row = 1, column = 0, columnspan = 4, rowspan = 7)
         
-    def confirm_save_client_info():
-        update_client_info()
-        personal_info_exit_window.destroy()
+        self.listbox.bind("<Double-Button-1>", self.open_clients_entry)
+        self.listbox.bind("<<ListboxSelect>>", self.get_selected_row)
 
-    def info_exit():
-        new_window.destroy()
-        personal_info_exit_window.destroy()
+        self.listbox.configure(yscrollcommand = self.scroll_bar.set)
+        self.scroll_bar.configure(command = self.listbox.yview)
         
-    global new_window
+        self.view_all_button = Button(window, width = 12, text = "View All", command = self.view_clients)
+        self.view_all_button.grid(row = 1, column = 5)
+        
+        self.search_entry_button = Button(window, width = 12, text = "Search Entry", command = self.search_clients)
+        self.search_entry_button.grid(row = 2, column = 5)
+       
+        self.add_entry_button = Button(window, width = 12, text = "Add Entry", command = self.add_client)
+        self.add_entry_button.grid(row = 3, column = 5)
+        
+        self.open_entry_button = Button(window, width = 12, text = "Open Entry", command = self.open_personal_info_menu)
+        self.open_entry_button.grid(row = 4, column = 5)
+        
+        self.update_balance_button = Button(window, width = 12, text = "Update Balance", command = self.open_balance_window)
+        self.update_balance_button.grid(row = 5, column = 5)
+        
+        self.delete_button = Button(window, width = 12, text = "Delete", command = self.delete_client)
+        self.delete_button.grid(row = 6, column = 5)
+        
+        self.close_button = Button(window, width = 12, text = "Close", command = window.destroy)
+        self.close_button.grid(row = 7, column = 5)
 
-    new_window = Toplevel()
-    new_window.wm_title("Client Information")
+        self.menu_activation('disable')
+        
 
-    greyed_first_name_entry = Entry(new_window)
-    greyed_first_name_entry.grid(row = 0, column = 0)
-    greyed_first_name_entry.delete(0, END)
-    greyed_first_name_entry.insert(END, selected_tuple[1])
-    greyed_first_name_entry.configure(state = 'disable')
-
-    greyed_last_name_entry = Entry(new_window, width = 30)
-    greyed_last_name_entry.grid(row = 0, column = 1, columnspan = 2)    
-    greyed_last_name_entry.delete(0, END)
-    greyed_last_name_entry.insert(END, selected_tuple[2])
-    greyed_last_name_entry.configure(state = 'disable')
-
-    greyed_gender_entry = Entry(new_window)
-    greyed_gender_entry.grid(row = 0, column = 3)
-    greyed_gender_entry.delete(0, END)
-    greyed_gender_entry.insert(END, selected_tuple[3])
-    greyed_gender_entry.configure(state = 'disable')
-
-    address_label = Label(new_window, text = "Address")
-    address_label.grid(row = 1, column = 0)
-
-    address_entry_value = StringVar()
-    address_entry = Entry(new_window, width = 50, textvariable = address_entry_value)
-    address_entry.grid(row = 1, column = 1, columnspan = 3)
-    address_entry.delete(0, END)
-    if extended_tuple[0][4] is not None:
-        address_entry.insert(END, extended_tuple[0][4])
-
-    city_label = Label(new_window, text = "City")
-    city_label.grid(row = 2, column = 0)
-
-    city_entry_value = StringVar()
-    city_entry = Entry(new_window, textvariable = city_entry_value)
-    city_entry.grid(row = 2, column = 1)
-    if extended_tuple[0][5] is not None:
-        city_entry.insert(END, extended_tuple[0][5])
-
-    province_label = Label(new_window, text = "Province")
-    province_label.grid(row = 2, column = 2)
-
-    province_entry_value = StringVar()
-    province_entry = Entry(new_window, textvariable = province_entry_value)
-    province_entry.grid(row = 2, column = 3)
-    if extended_tuple[0][6] is not None:
-        province_entry.insert(END, extended_tuple[0][6])    
-
-    phone_number_label = Label(new_window, text = "Phone Number")
-    phone_number_label.grid(row = 3, column = 0)
-
-    phone_number_entry_value = StringVar()
-    phone_number_entry = Entry(new_window, textvariable = phone_number_entry_value)
-    phone_number_entry.grid(row = 3, column = 1)
-    if extended_tuple[0][7] is not None:
-        phone_number_entry.insert(END, extended_tuple[0][7])  
-
-    zip_code_label = Label(new_window, text = "Zip Code")
-    zip_code_label.grid(row = 3, column = 2)
-
-    zip_code_entry_value = StringVar()
-    zip_code_entry = Entry(new_window, textvariable = zip_code_entry_value)
-    zip_code_entry.grid(row = 3, column = 3)
-    if extended_tuple[0][8] is not None:
-        zip_code_entry.insert(END, extended_tuple[0][8])  
-
-    update_button = Button(new_window, width = 20, text = "Update", command = update_client_info)
-    update_button.grid(row = 4, column = 0, columnspan = 2)
-
-    close_button = Button(new_window, width = 20, text = "Close", command = lambda: confirm_exit(confirm_save_client_info, info_exit))
-    close_button.grid(row = 4, column = 2, columnspan = 2)
-    
-
-def update_balance():
-    
-    def update_client_balance(balance_arg):
+    def get_selected_row(self, event):
+        
         try:
-            if current_account == account[0]:
-                backend.update_balance(selected_tuple[0], 0, float(balance_arg.get()))
-                balance_window.destroy()
-            elif current_account == account[1]:
-                backend.update_balance(selected_tuple[0], 1, float(balance_arg.get()))      
-                balance_window.destroy()
-        except NameError:
+            index = self.listbox.curselection()[0]
+            self.selected_tuple = self.listbox.get(index)
+            self.selected_tuple = self.selected_tuple.split()
+            self.extended_tuple = backend.select_client(self.selected_tuple[0])
+            self.first_name_entry.delete(0,END)
+            self.first_name_entry.insert(END, self.selected_tuple[1])
+            self.last_name_entry.delete(0,END)
+            self.last_name_entry.insert(END, self.selected_tuple[2])
+            self.gender_entry.delete(0,END)
+            self.gender_entry.insert(END, self.selected_tuple[3])
+            self.menu_activation('normal')
+
+        except IndexError:
             pass
 
-    def confirm_save_balance_info():
-        update_client_balance(balance_entry_value)
-        personal_info_exit_window.destroy()
+    def menu_activation(self, on_or_off):
+        self.open_entry_button.configure(state = on_or_off)
+        self.update_balance_button.configure(state = on_or_off)
+        self.delete_button.configure(state = on_or_off)
 
-    def balance_exit():
-        personal_info_exit_window.destroy()
-        balance_window.destroy()
+    def open_personal_info_menu(self):
+        self.personal_info = PersonalInfoMenu(  self.selected_tuple[0], self.selected_tuple[1], self.selected_tuple[2],
+                                                self.selected_tuple[3], self.extended_tuple[0][4], self.extended_tuple[0][5],
+                                                self.extended_tuple[0][6], self.extended_tuple[0][7], self.extended_tuple[0][8])
 
-    def account_switch(acc_num):
-        balance_entry.delete(0, END)
-        global current_account
-        current_account = account[acc_num]
-        if current_account == account[0]:
-            savings_button.configure(relief = RAISED)
-            chequing_button.configure(relief = SUNKEN)
-            if extended_tuple[0][9] is not None:
-                balance_entry.insert(END, extended_tuple[0][9])
-        else:
-            savings_button.configure(relief = SUNKEN)
-            chequing_button.configure(relief = RAISED)
-            if extended_tuple[0][10] is not None:
-                balance_entry.insert(END, extended_tuple[0][10])
-        update_button.configure(state = 'normal')    
+    def open_clients_entry(self, event):
+        self.open_personal_info_menu()
+
+    def open_balance_window(self):
+        self.balance_info = ClientBalance(self.selected_tuple[0], self.selected_tuple[1], self.selected_tuple[2],
+                                          self.extended_tuple[0][9], self.extended_tuple[0][10])
+
+    def view_clients(self):
+        client_rows = backend.view()
+        self.listbox.delete(0, END)
         
-    global balance_window
-    balance_window = Toplevel()
-    balance_window.wm_title("Client's Balance")
+        for clients in client_rows:
+            print_string = str(clients[0]) + " " + str(clients[1]) + " " + str(clients[2]) + " " + str(clients[3])
+            if clients[9] is not None and clients[10] is not None:
+                self.listbox.insert(END, print_string + " : $" + str(clients[9]) + " $" + str(clients[10]))
+            else:
+                self.listbox.insert(END, print_string)
+
+
+    def search_clients(self):
+        searched_clients = backend.search(self.first_name_value.get(), self.last_name_value.get(), self.gender_value.get())
+        self.listbox.delete(0, END)
+        
+        for clients in searched_clients:
+            print_string = str(clients[0]) + " " + str(clients[1]) + " " + str(clients[2]) + " " + str(clients[3])
+            if clients[9] is not None and clients[10] is not None:
+                self.listbox.insert(END, print_string + " : $" + str(clients[9]) + " $" + str(clients[10]))
+            else:
+                self.listbox.insert(END, print_string)
+
+    def add_client(self):
+        backend.insert_basic(self.first_name_value.get(), self.last_name_value.get(), self.gender_value.get())
+        self.listbox.delete(0, END)
+        self.listbox.insert(END, (self.first_name_value.get(), self.last_name_value.get(), self.gender_value.get()))
+
+    def delete_client(self):
+        backend.delete(self.selected_tuple[0])
+
+class PersonalInfoMenu:
+
+    def __init__(self, id_key, f_name, l_name, gender, address, city, province, phone, zip_code):
+
+        self.personal_window = Toplevel()
+        self.personal_window.wm_title("Personal Information")
+
+        self.id_key = id_key
+
+        self.greyed_first_name_entry = Entry(self.personal_window)
+        self.greyed_first_name_entry.grid(row = 0, column = 0)
+        self.greyed_first_name_entry.delete(0, END)
+        self.greyed_first_name_entry.insert(END, f_name)
+        self.greyed_first_name_entry.configure(state = 'disable')
+
+        self.greyed_last_name_entry = Entry(self.personal_window, width = 30)
+        self.greyed_last_name_entry.grid(row = 0, column = 1, columnspan = 2)    
+        self.greyed_last_name_entry.delete(0, END)
+        self.greyed_last_name_entry.insert(END, l_name)
+        self.greyed_last_name_entry.configure(state = 'disable')
+
+        self.greyed_gender_entry = Entry(self.personal_window)
+        self.greyed_gender_entry.grid(row = 0, column = 3)
+        self.greyed_gender_entry.delete(0, END)
+        self.greyed_gender_entry.insert(END, gender)
+        self.greyed_gender_entry.configure(state = 'disable')        
+
+        self.address_label = Label(self.personal_window, text = "Address")
+        self.address_label.grid(row = 1, column = 0)
+
+        self.address_value = StringVar()
+        self.address_entry = Entry(self.personal_window, width = 50, textvariable = self.address_value)
+        self.address_entry.grid(row = 1, column = 1, columnspan = 3)
+        self.address_entry.delete(0, END)
+        if address is not None:
+            self.address_entry.insert(END, address)
+        
+        self.city_label = Label(self.personal_window, text = "City")
+        self.city_label.grid(row = 2, column = 0)
+
+        self.city_value = StringVar()
+        self.city_entry = Entry(self.personal_window, textvariable = self.city_value)
+        self.city_entry.grid(row = 2, column = 1)
+        if city is not None:
+            self.city_entry.insert(END, city)
+        
+        self.province_label = Label(self.personal_window, text = "Province")
+        self.province_label.grid(row = 2, column = 2)
+
+        self.province_value = StringVar()
+        self.province_entry = Entry(self.personal_window, textvariable = self.province_value)
+        self.province_entry.grid(row = 2, column = 3)
+        if province is not None:
+            self.province_entry.insert(END, province)    
+        
+        self.phone_number_label = Label(self.personal_window, text = "Phone Number")
+        self.phone_number_label.grid(row = 3, column = 0)
+
+        self.phone_number_value = StringVar()
+        self.phone_number_entry = Entry(self.personal_window, textvariable = self.phone_number_value)
+        self.phone_number_entry.grid(row = 3, column = 1)
+        if phone is not None:
+            self.phone_number_entry.insert(END, phone)  
+        
+        self.zip_code_label = Label(self.personal_window, text = "Zip Code")
+        self.zip_code_label.grid(row = 3, column = 2)
+
+        self.zip_code_value = StringVar()
+        self.zip_code_entry = Entry(self.personal_window, textvariable = self.zip_code_value)
+        self.zip_code_entry.grid(row = 3, column = 3)
+        if zip_code is not None:
+            self.zip_code_entry.insert(END, zip_code)  
+
+        self.update_button = Button(self.personal_window, width = 20, text = "Update", command = self.update_client_info)
+        self.update_button.grid(row = 4, column = 0, columnspan = 2)
+
+        self.close_button = Button(self.personal_window, width = 20, text = "Close", command = self.personal_window.destroy)
+        self.close_button.grid(row = 4, column = 2, columnspan = 2)
+
+       
+    def update_client_info(self):
+        
+        backend.update_personal(self.id_key, self.address_value.get(), self.city_value.get(),
+                                self.province_value.get(), self.phone_number_value.get(), self.zip_code_value.get())        
+        self.personal_window.destroy()
+
+class ClientBalance:
+
+    def __init__(self, id_key, f_name, l_name, chequing_balance, savings_balance):
+        
+        self.balance_window = Toplevel()
+        self.balance_window.wm_title("Client's Balance")
+        
+        self.account = ["chequing", "savings"]
+        self.id_key = id_key
+        self.chequing_balance = chequing_balance
+        self.savings_balance = savings_balance
+        
+        self.first_name_label = Label(self.balance_window, text = f_name)
+        self.first_name_label.grid(row = 0, column = 0)
+
+        self.last_name_label = Label(self.balance_window, text = l_name)
+        self.last_name_label.grid(row = 0, column = 1)
+
+        self.balance_label = Label(self.balance_window, text = "Current Balance")
+        self.balance_label.grid(row = 1, column = 0)
+
+        self.balance_value = StringVar()
+        self.balance_entry = Entry(self.balance_window, textvariable = self.balance_value)
+        self.balance_entry.grid(row = 1, column = 1, columnspan = 2)
     
-    account = ["chequing", "savings"]
+        self.chequing_button = Button(self.balance_window, width = 10, text = "Chequing", command = lambda: self.account_switch(0))
+        self.chequing_button.grid(row = 1, column = 3)
+
+        self.savings_button = Button(self.balance_window, width = 10, text = "Savings", command = lambda: self.account_switch(1))
+        self.savings_button.grid(row = 1, column = 4)
+        
+        self.update_button = Button(self.balance_window, width = 20, text = "Update", command = lambda: self.update_client_balance(self.balance_value))
+        self.update_button.grid(row = 4, column = 0, columnspan = 2)
+        self.update_button.configure(state = 'disable')
+
+        self.close_button = Button(self.balance_window, width = 20, text = "Close", command = self.balance_window.destroy)
+        self.close_button.grid(row = 4, column = 2, columnspan = 2)           
+
+    def update_client_balance(self, balance):
+        
+        if self.current_account == self.account[0]:
+            backend.update_balance(self.id_key, 0, float(balance.get()))
+            self.balance_window.destroy()
+        elif self.current_account == self.account[1]:
+            backend.update_balance(self.id_key, 1, float(balance.get()))      
+            self.balance_window.destroy()
+
+    def account_switch(self, acc_num):
+        
+        self.balance_entry.delete(0, END)
+        self.current_account = self.account[acc_num]
+        
+        if self.current_account == self.account[0]:
+            self.savings_button.configure(relief = RAISED)
+            self.chequing_button.configure(relief = SUNKEN)
+            if self.chequing_balance is not None:
+                self.balance_entry.insert(END, self.chequing_balance)
+        else:
+            self.savings_button.configure(relief = SUNKEN)
+            self.chequing_button.configure(relief = RAISED)
+            if self.savings_balance is not None:
+                self.balance_entry.insert(END, self.savings_balance)
+                
+        self.update_button.configure(state = 'normal')  
     
-    first_name_label = Label(balance_window, text = selected_tuple[1])
-    first_name_label.grid(row = 0, column = 0)
-
-    last_name_label = Label(balance_window, text = selected_tuple[2])
-    last_name_label.grid(row = 0, column = 1)
-
-    balance_label = Label(balance_window, text = "Current Balance")
-    balance_label.grid(row = 1, column = 0)
-
-    balance_entry_value = StringVar()
-    balance_entry = Entry(balance_window, textvariable = balance_entry_value)
-    balance_entry.grid(row = 1, column = 1, columnspan = 2)
-
-    chequing_button = Button(balance_window, width = 10, text = "Chequing", command = lambda: account_switch(0))
-    chequing_button.grid(row = 1, column = 3)
-
-    savings_button = Button(balance_window, width = 10, text = "Savings", command = lambda: account_switch(1))
-    savings_button.grid(row = 1, column = 4)
-
-    update_button = Button(balance_window, width = 20, text = "Update", command = lambda: update_client_balance(balance_entry_value))
-    update_button.grid(row = 4, column = 0, columnspan = 2)
-    update_button.configure(state = 'disable')
-
-    close_button = Button(balance_window, width = 20, text = "Close", command = lambda: confirm_exit(confirm_save_balance_info, balance_exit))
-    close_button.grid(row = 4, column = 2, columnspan = 2)     
 
 window = Tk()
-window.wm_title("Clients")
 
-first_name_label = Label(window, text = "First Name")
-first_name_label.grid(row = 0, column = 0)
-
-first_name_entry_value = StringVar()
-first_name_entry = Entry(window, textvariable = first_name_entry_value)
-first_name_entry.grid(row = 0, column = 1)
-
-last_name_label = Label(window, text = "Last Name")
-last_name_label.grid(row = 0, column = 2)
-
-last_name_entry_value = StringVar()
-last_name_entry = Entry(window, textvariable = last_name_entry_value)
-last_name_entry.grid(row = 0, column = 3)
-
-gender_label = Label(window, text = "Gender")
-gender_label.grid(row = 0, column = 4)
-
-gender_entry_value = StringVar()
-gender_entry = Entry(window, textvariable = gender_entry_value)
-gender_entry.grid(row = 0, column = 5)
-
-scroll_bar = Scrollbar(window)
-scroll_bar.grid(row = 1, column = 4, rowspan = 6)
-
-listbox = Listbox(window, width = 75, height = 10)
-listbox.grid(row = 1, column = 0, columnspan = 4, rowspan = 7)
-
-listbox.bind("<Double-Button-1>", open_clients_entry)
-listbox.bind("<<ListboxSelect>>", get_selected_row)
-
-listbox.configure(yscrollcommand = scroll_bar.set)
-scroll_bar.configure(command = listbox.yview)
-
-view_all_button = Button(window, width = 12, text = "View All", command = view_clients)
-view_all_button.grid(row = 1, column = 5)
-
-search_entry_button = Button(window, width = 12, text = "Search Entry", command = search_clients)
-search_entry_button.grid(row = 2, column = 5)
-
-add_entry_button = Button(window, width = 12, text = "Add Entry", command = add_client)
-add_entry_button.grid(row = 3, column = 5)
-
-open_entry_button = Button(window, width = 12, text = "Open Entry", command = open_menu)
-open_entry_button.grid(row = 4, column = 5)
-
-update_balance_button = Button(window, width = 12, text = "Update Balance", command = update_balance)
-update_balance_button.grid(row = 5, column = 5)
-
-delete_button = Button(window, width = 12, text = "Delete", command = delete_client)
-delete_button.grid(row = 6, column = 5)
-
-close_button = Button(window, width = 12, text = "Close", command = window.destroy)
-close_button.grid(row = 7, column = 5)
-
-menu_activation('disable')
+main_menu = MainMenu(window)
 
 window.mainloop()
+
+
