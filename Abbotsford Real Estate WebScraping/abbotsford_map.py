@@ -18,6 +18,7 @@ address_list = list(data["Address"])
 
 latitude = list(data["Latitude"])
 longitude = list(data["Longitude"])
+
 price = list(data["Price"])
 address = list(data["Address"])
 webpage = list(data["Webpage"])

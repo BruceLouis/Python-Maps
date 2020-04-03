@@ -1,505 +1,89 @@
-,Address,Bath,Bed,Latitude,Longitude,Price,Webpage,sf
-0,33667 Grace Avenue,2,3,49.1081403,-122.2924981,"$599,000",https://www.rew.ca/properties/R2280636/33667-grace-avenue-abbotsford-bc,1500
-1,112-1755 Salton Road,2,2,49.03532,-122.287679,"$349,900",https://www.rew.ca/properties/R2284761/112-1755-salton-road-abbotsford-bc,1223
-2,39800 Old Yale Road,0,0,49.0481801,-122.2579657,"$750,000",https://www.rew.ca/properties/R2284554/39800-old-yale-road-abbotsford-bc,0
-3,32282 Marshall Road,2,5,49.0380098,-122.329661,"$714,900",https://www.rew.ca/properties/R2284511/32282-marshall-road-abbotsford-bc,2100
-4,31914 Hopedale Avenue,2,4,49.0541996,-122.3425367,"$749,000",https://www.rew.ca/properties/R2284387/31914-hopedale-avenue-abbotsford-bc,2400
-5,122-2451 Gladwin Road,2,2,49.0500461,-122.3150798,"$328,500",https://www.rew.ca/properties/R2284081/122-2451-gladwin-road-abbotsford-bc,1236
-6,213-2350 Westerly Street,2,2,49.0458732,-122.345247,"$354,900",https://www.rew.ca/properties/R2283889/213-2350-westerly-street-abbotsford-bc,895
-7,308-1975 Mccallum Road,2,2,49.0385365,-122.2935247,"$389,000",https://www.rew.ca/properties/R2284104/308-1975-mccallum-road-abbotsford-bc,875
-8,35521 Sheena Place,3,5,49.0720991,-122.2410233,"$950,000",https://www.rew.ca/properties/R2284145/35521-sheena-place-abbotsford-bc,3053
-9,48-30989 Westridge Place,2,2,49.0686481,-122.3605458,"$529,900",https://www.rew.ca/properties/R2284152/48-30989-westridge-place-abbotsford-bc,1172
-10,405-1909 Salton Road,1,2,49.03532,-122.287679,"$259,900",https://www.rew.ca/properties/R2283960/405-1909-salton-road-abbotsford-bc,903
-11,312-32870 George Ferguson Way,1,2,49.05469375,-122.313318333397,"$259,900",https://www.rew.ca/properties/R2283514/312-32870-george-ferguson-way-abbotsford-bc,951
-12,504-3080 Gladwin Road,2,2,49.05810005,-122.3143628996,"$450,000",https://www.rew.ca/properties/R2283903/504-3080-gladwin-road-abbotsford-bc,806
-13,4-2962 Nelson Place,1,2,49.0502982,-122.295250321276,"$274,000",https://www.rew.ca/properties/R2283115/4-2962-nelson-place-abbotsford-bc,1030
-14,61-31032 Westridge Place,2,2,49.0686481,-122.3605458,"$478,888",https://www.rew.ca/properties/R2283517/61-31032-westridge-place-abbotsford-bc,1232
-15,2823 Westside Place,4,4,49.0531513,-122.3507192,"$819,000",https://www.rew.ca/properties/R2283288/2823-westside-place-abbotsford-bc,2528
-16,4469 Farina Road,4,5,49.0830605,-122.2099036,"$990,000",https://www.rew.ca/properties/R2282839/4469-farina-road-abbotsford-bc,3827
-17,34409 Laburnum Avenue,3,5,49.0644452,-122.2580006,"$749,000",https://www.rew.ca/properties/R2283393/34409-laburnum-avenue-abbotsford-bc,3040
-18,503-31955 Old Yale Road,1,2,49.0481801,-122.2579657,"$299,700",https://www.rew.ca/properties/R2283250/503-31955-old-yale-road-abbotsford-bc,1131
-19,111-33546 Holland Avenue,2,2,49.03769595,-122.294782485699,"$389,700",https://www.rew.ca/properties/R2282788/111-33546-holland-avenue-abbotsford-bc,933
-20,116-2414 Church Street,1,1,49.0460005,-122.3349267,"$248,500",https://www.rew.ca/properties/R2283054/116-2414-church-street-abbotsford-bc,743
-21,2087 Emerson Street,3,5,49.0397701,-122.3187291,"$734,800",https://www.rew.ca/properties/R2275188/2087-emerson-street-abbotsford-bc,2800
-22,68-31032 Westridge Place,2,2,49.0686481,-122.3605458,"$509,900",https://www.rew.ca/properties/R2283049/68-31032-westridge-place-abbotsford-bc,1224
-23,7-32138 George Ferguson Way,3,2,49.054659,-122.3337951,"$504,700",https://www.rew.ca/properties/R2282412/7-32138-george-ferguson-way-abbotsford-bc,1208
-24,2425 Mountain Drive,3,3,49.0442808,-122.2309801,"$749,500",https://www.rew.ca/properties/R2282523/2425-mountain-drive-abbotsford-bc,2017
-25,33969 Victory Boulevard,1,4,49.0413646,-122.2832939,"$755,000",https://www.rew.ca/properties/R2282573/33969-victory-boulevard-abbotsford-bc,1592
-26,1773 Fairview Street,2,4,49.0341898,-122.3043618,"$818,500",https://www.rew.ca/properties/R2282690/1773-fairview-street-abbotsford-bc,2268
-27,57-36060 Old Yale Road,3,3,49.0481801,-122.2579657,"$544,900",https://www.rew.ca/properties/R2282598/57-36060-old-yale-road-abbotsford-bc,1430
-28,33921 Elm Street,2,5,49.0522086,-122.287228,"$838,000",https://www.rew.ca/properties/R2281224/33921-elm-street-abbotsford-bc,2627
-29,2728 Clearbrook Road,1,5,49.0516343,-122.3374179,"$558,800",https://www.rew.ca/properties/R2281456/2728-clearbrook-road-abbotsford-bc,1418
-30,32019 Noble Avenue,1,3,49.0512924,-122.3369748,"$598,800",https://www.rew.ca/properties/R2281458/32019-noble-avenue-abbotsford-bc,2164
-31,3-33922 King Road,3,3,49.0313669,-122.4420411,"$574,700",https://www.rew.ca/properties/R2281583/3-33922-king-road-abbotsford-bc,2454
-32,213-30525 Cardinal Avenue,2,2,49.06202805,-122.378707988993,"$349,000",https://www.rew.ca/properties/R2281566/213-30525-cardinal-avenue-abbotsford-bc,874
-33,307-33898 Pine Street,2,2,49.0513154,-122.2870089,"$374,900",https://www.rew.ca/properties/R2281299/307-33898-pine-street-abbotsford-bc,904
-34,25-32250 Downes Road,2,3,49.0745423,-122.3480408,"$829,500",https://www.rew.ca/properties/R2281230/25-32250-downes-road-abbotsford-bc,1655
-35,2444 Lilac Crescent,4,8,49.0464863,-122.3261614,"$1,299,980",https://www.rew.ca/properties/R2281283/2444-lilac-crescent-abbotsford-bc,4696
-36,329-32850 George Ferguson Way,1,2,49.0547353,-122.314740837114,"$290,900",https://www.rew.ca/properties/R2281401/329-32850-george-ferguson-way-abbotsford-bc,916
-37,2626 Mitchell Street,3,4,-45.8954903,170.4319064,"$839,900",https://www.rew.ca/properties/R2280413/2626-mitchell-street-abbotsford-bc,1939
-38,307-2279 Mccallum Road,1,2,49.04346155,-122.294401697585,"$279,700",https://www.rew.ca/properties/R2280976/307-2279-mccallum-road-abbotsford-bc,972
-39,36284 Country Place,3,6,,,"$839,900",https://www.rew.ca/properties/R2281022/36284-country-place-abbotsford-bc,2674
-40,401-2964 Trethewey Street,2,2,49.05670395,-122.326346060899,"$385,000",https://www.rew.ca/properties/R2280070/401-2964-trethewey-street-abbotsford-bc,1156
-41,33667 Grace Avenue,2,3,49.1081403,-122.2924981,"$599,000",https://www.rew.ca/properties/R2280636/33667-grace-avenue-abbotsford-bc,1500
-42,211-31955 Old Yale Road,1,2,49.0481801,-122.2579657,"$240,000",https://www.rew.ca/properties/R2274586/211-31955-old-yale-road-abbotsford-bc,1092
-43,205-2410 Emerson Street,2,2,49.0458616,-122.317742061121,"$299,000",https://www.rew.ca/properties/R2280667/205-2410-emerson-street-abbotsford-bc,1099
-44,3583 Mckinley Drive,3,5,49.0685404,-122.2413801,"$999,000",https://www.rew.ca/properties/R2280754/3583-mckinley-drive-abbotsford-bc,3233
-45,34109 George Ferguson Way,5,5,49.05150135,-122.288663626747,"$929,900",https://www.rew.ca/properties/R2280637/34109-george-ferguson-walk-abbotsford-bc,2756
-46,34110 Larch Street,5,5,49.0508132,-122.2757696,"$949,900",https://www.rew.ca/properties/R2280624/34110-larch-street-abbotsford-bc,2756
-47,2574 Sunnyside Crescent,2,4,49.0479611,-122.3490902,"$1,099,000",https://www.rew.ca/properties/R2280318/2574-sunnyside-crescent-abbotsford-bc,2700
-48,28-3115 Trafalgar Street,3,3,49.0544173,-122.3090588,"$549,700",https://www.rew.ca/properties/R2280258/28-3115-trafalgar-street-abbotsford-bc,2634
-49,2705 Eagle Peak Drive,6,6,49.0515508,-122.2375476,"$1,698,800",https://www.rew.ca/properties/R2280157/2705-eagle-peak-drive-abbotsford-bc,4766
-50,2697 Aquila Drive,5,4,49.0516586,-122.2369754,"$1,198,800",https://www.rew.ca/properties/R2280159/2697-aquila-drive-abbotsford-bc,3585
-51,2567 Eagle Mountain Drive,4,4,49.0455196,-122.2501215,"$1,158,800",https://www.rew.ca/properties/R2279721/2567-eagle-mountain-drive-abbotsford-bc,3088
-52,105-2750 Fairlane Street,2,2,49.0523268,-122.3075434,"$359,900",https://www.rew.ca/properties/R2279643/105-2750-fairlane-street-abbotsford-bc,1061
-53,30559 Northridge Way,4,6,49.0693873,-122.3784549,"$1,098,800",https://www.rew.ca/properties/R2278657/30559-northridge-way-abbotsford-bc,3071
-54,3505 Cariboo Court,3,4,49.0648759,-122.2518225,"$749,000",https://www.rew.ca/properties/R2278949/3505-cariboo-court-abbotsford-bc,2320
-55,316-32085 George Ferguson Way,2,2,49.055247,-122.335354297917,"$344,900",https://www.rew.ca/properties/R2278951/316-32085-george-ferguson-way-abbotsford-bc,1005
-56,407-3172 Gladwin Road,2,2,49.05885055,-122.313265119145,"$360,000",https://www.rew.ca/properties/R2278539/407-3172-gladwin-road-abbotsford-bc,1131
-57,355 Mccallum Road,2,3,49.0660418,-122.2863475,"$1,125,000",https://www.rew.ca/properties/R2278855/355-mccallum-road-abbotsford-bc,3060
-58,411-33280 E Bourquin Crescent,0,2,,,"$320,000",https://www.rew.ca/properties/R2277909/411-33280-e-bourquin-crescent-abbotsford-bc,1104
-59,103-32725 George Ferguson Way,2,2,49.051289,-122.2978599,"$314,800",https://www.rew.ca/properties/R2277825/103-32725-george-ferguson-way-abbotsford-bc,898
-60,304-2684 Mccallum Road,1,1,49.05078585,-122.293386732013,"$239,000",https://www.rew.ca/properties/R2277320/304-2684-mccallum-road-abbotsford-bc,721
-61,2480 Mendham Street,3,4,49.0470377,-122.272873,"$684,700",https://www.rew.ca/properties/R2277280/2480-mendham-street-abbotsford-bc,2014
-62,2111 Whatcom Road,3,4,49.0399289,-122.2207961,"$874,700",https://www.rew.ca/properties/R2276308/2111-whatcom-road-abbotsford-bc,2200
-63,12-2048 Mccallum Road,2,2,49.0660418,-122.2863475,"$335,000",https://www.rew.ca/properties/R2267564/12-2048-mccallum-road-abbotsford-bc,990
-64,301-2238 Whatcom Road,1,1,49.0399289,-122.2207961,"$369,900",https://www.rew.ca/properties/R2276818/301-2238-whatcom-road-abbotsford-bc,771
-65,31146 Sidoni Avenue,4,4,49.0564349,-122.3614156,"$749,000",https://www.rew.ca/properties/R2276286/31146-sidoni-avenue-abbotsford-bc,2686
-66,34788 Marshall Road,3,5,49.0381762,-122.3120201,"$949,000",https://www.rew.ca/properties/R2276052/34788-marshall-road-abbotsford-bc,3132
-67,35465 Nakiska Court,3,5,49.0707039,-122.242132,"$929,800",https://www.rew.ca/properties/R2275900/35465-nakiska-court-abbotsford-bc,2670
-68,209-33960 Old Yale Road,2,2,49.0481801,-122.2579657,"$324,900",https://www.rew.ca/properties/R2276171/209-33960-old-yale-road-abbotsford-bc,834
-69,417-33960 Old Yale Road,1,1,49.0481801,-122.2579657,"$284,900",https://www.rew.ca/properties/R2276195/417-33960-old-yale-road-abbotsford-bc,712
-70,25-36169 Lower Sumas Mountain Road,3,3,49.049568,-122.2228341,"$639,900",https://www.rew.ca/properties/R2275716/25-36169-lower-sumas-mountain-road-abbotsford-bc,1714
-71,2293 Merlot Boulevard,3,4,49.0457391,-122.4055751,"$1,000,000",https://www.rew.ca/properties/R2275444/2293-merlot-boulevard-abbotsford-bc,3256
-72,2410 Campbell Avenue,0,0,49.0496639,-122.2825891,"$359,900",https://www.rew.ca/properties/R2275220/2410-campbell-avenue-abbotsford-bc,0
-73,2087 Emerson Street,3,5,49.0397701,-122.3187291,"$734,800",https://www.rew.ca/properties/R2275188/2087-emerson-street-abbotsford-bc,2800
-74,3791 Mckinley Drive,3,5,49.0685404,-122.2413801,"$1,089,900",https://www.rew.ca/properties/R2275050/3791-mckinley-drive-abbotsford-bc,2983
-75,3694 Dunsmuir Way,3,4,49.0670684,-122.263776,"$689,000",https://www.rew.ca/properties/R2274782/3694-dunsmuir-way-abbotsford-bc,2150
-76,2515 Cameron Crescent,1,4,49.0477511,-122.2581266,"$655,000",https://www.rew.ca/properties/R2274792/2515-cameron-crescent-abbotsford-bc,1504
-77,3633 Burnside Drive,3,4,49.0678675,-122.2482446,"$724,900",https://www.rew.ca/properties/R2274309/3633-burnside-drive-abbotsford-bc,2754
-78,211-31955 Old Yale Road,1,2,49.0481801,-122.2579657,"$240,000",https://www.rew.ca/properties/R2274586/211-31955-old-yale-road-abbotsford-bc,1092
-79,22-34121 George Ferguson Way,3,3,49.051289,-122.2978599,"$779,900",https://www.rew.ca/properties/R2274554/22-34121-george-ferguson-way-abbotsford-bc,2398
-80,18-34121 George Ferguson Way,3,3,49.051289,-122.2978599,"$779,900",https://www.rew.ca/properties/R2274559/18-34121-george-ferguson-way-abbotsford-bc,2398
-81,19-34121 George Ferguson Way,3,3,49.051289,-122.2978599,"$779,900",https://www.rew.ca/properties/R2274544/19-34121-george-ferguson-way-abbotsford-bc,2398
-82,27906 Maclure Road,6,8,49.0541403,-122.3590636,"$1,129,000",https://www.rew.ca/properties/R2274269/27906-maclure-road-abbotsford-bc,4332
-83,406-33553 Marshall Road,3,2,49.03915335,-122.294922742735,"$529,900",https://www.rew.ca/properties/R2274211/406-33553-marshall-road-abbotsford-bc,1098
-84,211-31955 Old Yale Road,1,2,49.0481801,-122.2579657,"$240,000",https://www.rew.ca/properties/R2274586/211-31955-old-yale-road-abbotsford-bc,1092
-85,6184 Mt Lehman Road,3,5,49.0605371,-122.3813045,"$1,775,000",https://www.rew.ca/properties/R2274525/6184-mt-lehman-road-abbotsford-bc,3128
-86,34062 Mccrimmon Drive,3,3,49.0535015,-122.2851056,"$598,888",https://www.rew.ca/properties/R2272692/34062-mccrimmon-drive-abbotsford-bc,1550
-87,105-33553 Marshall Road,2,1,49.03915335,-122.294922742735,"$399,900",https://www.rew.ca/properties/R2273738/105-33553-marshall-road-abbotsford-bc,761
-88,405-33538 Marshall Road,1,1,49.03865465,-122.295097550067,"$313,000",https://www.rew.ca/properties/R2273318/405-33538-marshall-road-abbotsford-bc,677
-89,343-1909 Salton Road,1,2,49.03532,-122.287679,"$263,000",https://www.rew.ca/properties/R2274198/343-1909-salton-road-abbotsford-bc,885
-90,311-33401 Mayfair Avenue,2,2,49.0405627,-122.298907563641,"$339,000",https://www.rew.ca/properties/R2274052/311-33401-mayfair-avenue-abbotsford-bc,1023
-91,34840 Gleneagles Place,4,4,49.0560384,-122.2580365,"$857,700",https://www.rew.ca/properties/R2273732/34840-gleneagles-place-abbotsford-bc,3119
-92,31382 Windsor Court,2,3,49.0418369,-122.3547932,"$724,900",https://www.rew.ca/properties/R2273029/31382-windsor-court-abbotsford-bc,1900
-93,35902 Emily Carr Crescent,6,6,49.0815805,-122.2281029,"$1,199,000",https://www.rew.ca/properties/R2271882/35902-emily-carr-crescent-abbotsford-bc,4074
-94,12-4295 Old Clayburn Road,3,3,49.0601029,-122.2621013,"$669,000",https://www.rew.ca/properties/R2272455/12-4295-old-clayburn-road-abbotsford-bc,2056
-95,3553 Trethewey Street,4,5,49.0601099,-122.3269446,"$819,000",https://www.rew.ca/properties/R2272531/3553-trethewey-street-abbotsford-bc,2810
-96,310-1975 Mccallum Road,1,1,49.0385365,-122.2935247,"$292,800",https://www.rew.ca/properties/R2272479/310-1975-mccallum-road-abbotsford-bc,673
-97,3786 Nanaimo Crescent,4,4,49.0708303,-122.3180238,"$779,900",https://www.rew.ca/properties/R2270726/3786-nanaimo-crescent-abbotsford-bc,2773
-98,307-2964 Trethewey Street,2,2,49.05670395,-122.326346060899,"$317,999",https://www.rew.ca/properties/R2270969/307-2964-trethewey-street-abbotsford-bc,921
-99,3135 Elgon Court,4,3,49.0589352,-122.2754626,"$829,900",https://www.rew.ca/properties/R2271182/3135-elgon-court-abbotsford-bc,2400
-100,35802 Eaglecrest Drive,3,4,49.0450816,-122.2315,"$889,000",https://www.rew.ca/properties/R2272048/35802-eaglecrest-drive-abbotsford-bc,2879
-101,9-34130 Old Yale Road,4,3,49.0481801,-122.2579657,"$688,800",https://www.rew.ca/properties/R2271607/9-34130-old-yale-road-abbotsford-bc,2412
-102,35588 Dina Place,3,5,49.0404324,-122.2409114,"$889,000",https://www.rew.ca/properties/R2270544/35588-dina-place-abbotsford-bc,2737
-103,102-4401 Blauson Boulevard,2,3,49.0795707,-122.2131824,"$499,800",https://www.rew.ca/properties/R2270419/102-4401-blauson-boulevard-abbotsford-bc,1363
-104,33295 Newlands Avenue,2,3,49.0554967,-122.3022714,"$599,700",https://www.rew.ca/properties/R2269993/33295-newlands-avenue-abbotsford-bc,1583
-105,12-2048 Mccallum Road,2,2,49.0660418,-122.2863475,"$335,000",https://www.rew.ca/properties/R2267564/12-2048-mccallum-road-abbotsford-bc,990
-106,34790 Mierau Street,3,3,49.0633945,-122.2661921,"$695,000",https://www.rew.ca/properties/R2269826/34790-mierau-street-abbotsford-bc,2116
-107,302-2233 Mckenzie Road,1,1,49.0296497,-122.2819999,"$309,500",https://www.rew.ca/properties/R2269416/302-2233-mckenzie-road-abbotsford-bc,686
-108,16-1450 Mccallum Road,2,2,49.0660418,-122.2863475,"$439,900",https://www.rew.ca/properties/R2269413/16-1450-mccallum-road-abbotsford-bc,1351
-109,305-32070 Peardonville Road,1,2,49.0453796,-122.33506204187,"$259,700",https://www.rew.ca/properties/R2269571/305-32070-peardonville-road-abbotsford-bc,1098
-110,142-1909 Salton Road,1,1,49.03532,-122.287679,"$263,600",https://www.rew.ca/properties/R2267956/142-1909-salton-road-abbotsford-bc,728
-111,129-1909 Salton Road,1,1,49.03532,-122.287679,"$257,888",https://www.rew.ca/properties/R2267951/129-1909-salton-road-abbotsford-bc,707
-112,114-33400 Bourquin Place,1,2,49.0479636,-122.2989415,"$279,000",https://www.rew.ca/properties/R2268017/114-33400-bourquin-place-abbotsford-bc,940
-113,12-2048 Mccallum Road,2,2,49.0660418,-122.2863475,"$335,000",https://www.rew.ca/properties/R2267564/12-2048-mccallum-road-abbotsford-bc,990
-114,317-33175 Old Yale Road,2,2,49.05200425,-122.304570983174,"$349,900",https://www.rew.ca/properties/R2267907/317-33175-old-yale-road-abbotsford-bc,1235
-115,306-33539 Holland Avenue,2,2,49.03824585,-122.294945794926,"$379,500",https://www.rew.ca/properties/R2267189/306-33539-holland-avenue-abbotsford-bc,947
-116,202-2700 Mccallum Road,1,2,49.0660418,-122.2863475,"$327,900",https://www.rew.ca/properties/R2264350/202-2700-mccallum-drive-abbotsford-bc,903
-117,30061 Townshipline Road,8,5,49.0893593,-122.4569784,"$2,585,000",https://www.rew.ca/properties/R2265007/30061-townshipline-road-abbotsford-bc,8593
-118,36410 Epworth Court,6,6,49.0550618,-122.217484,"$1,424,999",https://www.rew.ca/properties/R2265551/36410-epworth-court-abbotsford-bc,4301
-119,78-3300 Horn Street,1,3,49.06192445,-122.305777170181,"$139,900",https://www.rew.ca/properties/R2264222/78-3300-horn-street-abbotsford-bc,1149
-120,106-32044 Old Yale Road,2,2,49.0516586,-122.336581113932,"$339,700",https://www.rew.ca/properties/R2264370/106-32044-old-yale-road-abbotsford-bc,1117
-121,29837 Simpson Road,2,3,49.0461888,-122.3756641,"$1,499,000",https://www.rew.ca/properties/R2264156/29837-simpson-road-abbotsford-bc,2500
-122,406-30515 Cardinal Avenue,2,2,49.06214655,-122.37943595017,"$359,900",https://www.rew.ca/properties/R2257157/406-30515-cardinal-avenue-abbotsford-bc,861
-123,36462 Estevan Court,5,6,49.0565733,-122.2154755,"$1,650,000",https://www.rew.ca/properties/R2263882/36462-estevan-court-abbotsford-bc,4018
-124,25-4295 Old Clayburn Road,3,3,49.0601029,-122.2621013,"$659,000",https://www.rew.ca/properties/R2264426/25-4295-old-clayburn-road-abbotsford-bc,1780
-125,408-33318 E Bourquin Crescent,1,1,,,"$349,900",https://www.rew.ca/properties/R2261971/408-33318-bourquin-crescent-abbotsford-bc,824
-126,12-2048 Mccallum Road,2,2,49.0660418,-122.2863475,"$335,000",https://www.rew.ca/properties/R2267564/12-2048-mccallum-road-abbotsford-bc,990
-127,203-2964 Trethewey Street,2,2,49.05670395,-122.326346060899,"$329,900",https://www.rew.ca/properties/R2262492/203-2964-trethewey-street-abbotsford-bc,921
-128,1141 Mccallum Road,2,4,49.0660418,-122.2863475,"$3,750,000",https://www.rew.ca/properties/R2261463/1141-mccallum-road-abbotsford-bc,2404
-129,1-32138 George Ferguson Way,3,2,49.054659,-122.3337951,"$509,999",https://www.rew.ca/properties/R2260022/1-32138-george-ferguson-way-abbotsford-bc,1193
-130,2361 Southdale Crescent,3,4,49.0451351,-122.3481119,"$729,000",https://www.rew.ca/properties/R2259161/2361-southdale-crescent-abbotsford-bc,2155
-131,142-4595 Sumas Mountain Road,3,4,49.0780704,-122.2055574,"$839,000",https://www.rew.ca/properties/R2259051/142-4595-sumas-mountain-road-abbotsford-bc,2304
-132,32-32250 Downes Road,3,3,49.0745423,-122.3480408,"$799,000",https://www.rew.ca/properties/R2257952/32-32250-downes-road-abbotsford-bc,2610
-133,202-2555 Ware Street,2,3,49.0480733,-122.3047541,"$583,999",https://www.rew.ca/properties/R2253697/202-2555-ware-street-abbotsford-bc,1404
-134,21-34825 Delair Road,4,3,49.0379601,-122.2420457,"$669,900",https://www.rew.ca/properties/R2251791/21-34825-delair-road-abbotsford-bc,1981
-135,10-34825 Delair Road,3,3,49.0379601,-122.2420457,"$584,900",https://www.rew.ca/properties/R2243970/10-34825-delair-road-abbotsford-bc,1629
-136,39623 Old Yale Road,8,8,49.0481801,-122.2579657,"$3,750,000",https://www.rew.ca/properties/R2242054/39623-old-yale-road-abbotsford-bc,12993
-137,35914 Emily Carr Crescent,6,6,49.0815805,-122.2281029,"$1,199,000",https://www.rew.ca/properties/R2228194/35914-emily-carr-crescent-abbotsford-bc,3880
-138,35926 Emily Carr Crescent,6,6,49.0815805,-122.2281029,"$1,199,000",https://www.rew.ca/properties/R2226852/35926-emily-carr-crescent-abbotsford-bc,4074
-139,10-3222 Immel Street,4,4,49.0623735,-122.2665396,"$565,000",https://www.rew.ca/properties/R2284672/10-3222-immel-street-abbotsford-bc,2346
-140,62-35287 Ol Yale Road,3,3,,,"$525,000",https://www.rew.ca/properties/R2284847/62-35287-ol-yale-road-abbotsford-bc,1651
-141,2874 Ash Street,3,0,49.0521707,-122.2773791,"$770,000",https://www.rew.ca/properties/R2284688/2874-ash-street-abbotsford-bc,2462
-142,202-33538 Marshall Road,1,1,49.03865465,-122.295097550067,"$319,900",https://www.rew.ca/properties/R2284638/202-33538-marshall-road-abbotsford-bc,719
-143,"32514,  Peardonville Road",3,3,49.0452303,-122.3233567,"$879,000",https://www.rew.ca/properties/R2284585/32514-peardonville-road-abbotsford-bc,1713
-144,2376 Cascade Street,3,4,49.045058,-122.3234479,"$850,000",https://www.rew.ca/properties/R2284580/2376-cascade-street-abbotsford-bc,2352
-145,202-30505 Blueridge Drive,3,3,49.0659213,-122.3784122,"$524,900",https://www.rew.ca/properties/R2284453/202-30505-blueridge-drive-abbotsford-bc,1628
-146,84-32959 George Ferguson Way,1,2,49.051289,-122.2978599,"$288,000",https://www.rew.ca/properties/R2284568/84-32959-george-ferguson-way-abbotsford-bc,1000
-147,211-31955 Old Yale Road,1,2,49.0481801,-122.2579657,"$240,000",https://www.rew.ca/properties/R2274586/211-31955-old-yale-road-abbotsford-bc,1092
-148,2315 Broadway Street,3,5,49.0438071,-122.3229989,"$749,000",https://www.rew.ca/properties/R2283180/2315-broadway-street-abbotsford-bc,2640
-149,35885 Marshall Road,4,3,49.0381762,-122.3120201,"$979,900",https://www.rew.ca/properties/R2284431/35885-marshall-road-abbotsford-bc,3648
-150,3520 Latimer Street,3,4,49.0703932,-122.2602076,"$799,888",https://www.rew.ca/properties/R2284708/3520-latimer-street-abbotsford-bc,2010
-151,2238 Bedford Place,3,5,49.042542,-122.3244798,"$760,000",https://www.rew.ca/properties/R2284415/2238-bedford-place-abbotsford-bc,2392
-152,2744 Sandon Drive,1,3,49.0513963,-122.2644511,"$520,000",https://www.rew.ca/properties/R2284869/2744-sandon-drive-abbotsford-bc,1329
-153,15-3270 Blue Jay Street,4,4,49.0559779,-122.3704118,"$599,999",https://www.rew.ca/properties/R2284815/15-3270-blue-jay-street-abbotsford-bc,1989
-154,95-4001 Old Clayburn Road,3,3,49.0601029,-122.2621013,"$798,800",https://www.rew.ca/properties/R2284677/95-4001-old-clayburn-road-abbotsford-bc,2746
-155,313-33538 Marshall Road,2,2,49.03865465,-122.295097550067,"$387,900",https://www.rew.ca/properties/R2284639/313-33538-marshall-road-abbotsford-bc,921
-156,86-31406 Upper Maclure Road,3,3,49.0603781,-122.3600138,"$479,900",https://www.rew.ca/properties/R2284647/86-31406-upper-maclure-road-abbotsford-bc,1879
-157,302-32124 Tims Avenue,2,2,49.0539177,-122.3363614,"$255,000",https://www.rew.ca/properties/R2284651/302-32124-tims-avenue-abbotsford-bc,963
-158,49-31406 Upper Maclure Road,3,3,49.0603781,-122.3600138,"$524,900",https://www.rew.ca/properties/R2284333/49-31406-upper-maclure-road-abbotsford-bc,1880
-159,64-1450 Mccallum Road,2,2,49.0660418,-122.2863475,"$499,000",https://www.rew.ca/properties/R2284340/64-1450-mccallum-road-abbotsford-bc,1745
-160,403-3170 Gladwin Road,2,2,49.05863605,-122.314177707286,"$473,500",https://www.rew.ca/properties/R2284543/403-3170-gladwin-road-abbotsford-bc,1145
-161,68-32633 Simon Avenue,3,3,49.0533613,-122.3196455,"$539,000",https://www.rew.ca/properties/R2284235/68-32633-simon-avenue-abbotsford-bc,1300
-162,55-1450 Mccallum Road,2,2,49.0660418,-122.2863475,"$499,000",https://www.rew.ca/properties/R2283998/55-1450-mccallum-road-abbotsford-bc,1745
-163,101-2451 Gladwin Road,2,2,49.0500461,-122.3150798,"$308,888",https://www.rew.ca/properties/R2284537/101-2451-gladwin-road-abbotsford-bc,1145
-164,2777 Babich Street,3,2,49.0524684,-122.3005426,"$1,570,000",https://www.rew.ca/properties/R2282278/2777-babich-street-abbotsford-bc,3387
-165,210-2780 Ware Street,1,1,49.0443664,-122.3044922,"$250,000",https://www.rew.ca/properties/R2283716/210-2780-ware-street-abbotsford-bc,703
-166,3742 Latimer Street,3,4,49.0703932,-122.2602076,"$769,000",https://www.rew.ca/properties/R2284291/3742-latimer-street-abbotsford-bc,2434
-167,106-33545 Rainbow Avenue,1,1,49.0372755,-122.294755701354,"$299,000",https://www.rew.ca/properties/R2284297/106-33545-rainbow-avenue-abbotsford-bc,634
-168,12-2048 Mccallum Road,2,2,49.0660418,-122.2863475,"$335,000",https://www.rew.ca/properties/R2267564/12-2048-mccallum-road-abbotsford-bc,990
-169,121-33535 King Road,2,2,49.0313669,-122.4420411,"$299,999",https://www.rew.ca/properties/R2284071/121-33535-king-road-abbotsford-bc,1440
-170,7-35520 Mahogany Drive,4,5,49.0504652,-122.2440283,"$1,425,000",https://www.rew.ca/properties/R2284298/7-35520-mahogany-drive-abbotsford-bc,4557
-171,4426 Blauson Boulevard,4,6,49.0795707,-122.2131824,"$899,900",https://www.rew.ca/properties/R2284365/4426-blauson-boulevard-abbotsford-bc,3590
-172,35445 Eagle Summit Drive,4,4,49.0514213,-122.2434193,"$1,275,000",https://www.rew.ca/properties/R2283448/35445-eagle-summit-drive-abbotsford-bc,3715
-173,320-1909 Salton Road,2,3,49.03532,-122.287679,"$274,900",https://www.rew.ca/properties/R2284185/320-1909-salton-road-abbotsford-bc,1170
-174,203-33375 Mayfair Avenue,2,2,49.04056405,-122.299559327799,"$359,999",https://www.rew.ca/properties/R2283410/203-33375-mayfair-avenue-abbotsford-bc,1065
-175,25-3015 Trethewey Street,2,3,49.0601099,-122.3269446,"$469,900",https://www.rew.ca/properties/R2284093/25-3015-trethewey-street-abbotsford-bc,1220
-176,504-32445 Simon Avenue,1,1,49.0533613,-122.3196455,"$399,000",https://www.rew.ca/properties/R2283524/504-32445-simon-avenue-abbotsford-bc,743
-177,27-31235 Upper Maclure Road,4,3,49.0603781,-122.3600138,"$589,000",https://www.rew.ca/properties/R2283975/27-31235-upper-maclure-road-abbotsford-bc,1688
-178,118-30930 Westridge Place,3,3,49.0686481,-122.3605458,"$729,900",https://www.rew.ca/properties/R2283842/118-30930-westridge-place-abbotsford-bc,2217
-179,99-30930 Westridge Place,3,2,49.0686481,-122.3605458,"$529,900",https://www.rew.ca/properties/R2283834/99-30930-westridge-place-abbotsford-bc,1259
-180,5460 Interprovincial Highway,3,5,49.0603482,-122.1096103,"$1,125,000",https://www.rew.ca/properties/R2283527/5460-interprovincial-highway-abbotsford-bc,2786
-181,506-33553 Marshall Road,2,2,49.03915335,-122.294922742735,"$579,900",https://www.rew.ca/properties/R2284158/506-33553-marshall-road-abbotsford-bc,1106
-182,130-2233 Mckenzie Road,2,2,49.0296497,-122.2819999,"$348,500",https://www.rew.ca/properties/R2284041/130-2233-mckenzie-road-abbotsford-bc,824
-183,3838 Coachstone Way,4,5,49.0724834,-122.2619887,"$1,250,000",https://www.rew.ca/properties/R2284037/3838-coachstone-way-abbotsford-bc,4317
-184,203-32145 Old Yale Road,2,2,49.0481801,-122.2579657,"$359,900",https://www.rew.ca/properties/R2284001/203-32145-old-yale-road-abbotsford-bc,1227
-185,238 Sumas Way,3,4,49.006578,-122.2649395,"$739,700",https://www.rew.ca/properties/R2283828/238-sumas-way-abbotsford-bc,1853
-186,324-2860 Trethewey Street,1,1,49.0601099,-122.3269446,"$424,900",https://www.rew.ca/properties/R2283817/324-2860-trethewey-street-abbotsford-bc,936
-187,203-33870 Fern Street,1,1,49.03704475,-122.28550179998,"$200,000",https://www.rew.ca/properties/R2283133/203-33870-fern-street-abbotsford-bc,880
-188,306-2585 Ware Street,2,2,49.04888035,-122.305022567913,"$389,900",https://www.rew.ca/properties/R2282667/306-2585-ware-street-abbotsford-bc,1174
-189,2087 Emerson Street,3,5,49.0397701,-122.3187291,"$734,800",https://www.rew.ca/properties/R2275188/2087-emerson-street-abbotsford-bc,2800
-190,118-32833 Landeau Place,2,2,49.0539759,-122.313802085917,"$279,000",https://www.rew.ca/properties/R2283222/118-32833-landeau-place-abbotsford-bc,1254
-191,2145 Emerson Street,3,5,49.0408041,-122.3187453,"$665,000",https://www.rew.ca/properties/R2283245/2145-emerson-street-abbotsford-bc,2234
-192,306-32040 Tims Avenue,1,2,49.0539177,-122.3363614,"$274,900",https://www.rew.ca/properties/R2283515/306-32040-tims-avenue-abbotsford-bc,1000
-193,5-31445 Upper Maclure Road,3,4,49.0603781,-122.3600138,"$698,800",https://www.rew.ca/properties/R2283465/5-31445-upper-maclure-road-abbotsford-bc,3384
-194,8-2241 Mccallum Road,2,3,49.0426986,-122.294386327648,"$399,900",https://www.rew.ca/properties/R2282881/8-2241-mccallum-road-abbotsford-bc,1500
-195,205-33480 George Ferguson Wa Way,2,2,,,"$319,800",https://www.rew.ca/properties/R2283277/205-33480-george-ferguson-wa-way-abbotsford-bc,949
-196,80-4401 Blauson Boulevard,2,3,49.0795707,-122.2131824,"$509,000",https://www.rew.ca/properties/R2283891/80-4401-blauson-boulevard-abbotsford-bc,1289
-197,210-33668 King Road,2,2,49.0308619,-122.2911735,"$359,900",https://www.rew.ca/properties/R2283600/210-33668-king-road-abbotsford-bc,1078
-198,8-36169 Lower Sumas Mountain Road,3,3,49.049568,-122.2228341,"$653,000",https://www.rew.ca/properties/R2283767/8-36169-lower-sumas-mountain-road-abbotsford-bc,2239
-199,2547 Country Court,4,4,49.0490614,-122.220166,"$850,000",https://www.rew.ca/properties/R2283778/2547-country-court-abbotsford-bc,3203
-200,3965 Caves Court,5,5,49.0736817,-122.243119,"$1,199,500",https://www.rew.ca/properties/R2283738/3965-caves-court-abbotsford-bc,4101
-201,31389 Windsor Court,5,5,49.0422868,-122.3547705,"$736,980",https://www.rew.ca/properties/R2283510/31389-windsor-court-abbotsford-bc,2153
-202,32773 Cowichan Terrace,3,4,49.0610105,-122.3164988,"$950,000",https://www.rew.ca/properties/R2283617/32773-cowichan-terrace-abbotsford-bc,2148
-203,35-4295 Old Clayburn Road,4,3,49.0601029,-122.2621013,"$735,900",https://www.rew.ca/properties/R2283573/35-4295-old-clayburn-road-abbotsford-bc,2181
-204,184-3160 Townline Road,3,4,49.0676476,-122.3598184,"$559,000",https://www.rew.ca/properties/R2283773/184-3160-townline-road-abbotsford-bc,1880
-205,137-30930 Westridge Place,3,3,49.0686481,-122.3605458,"$559,900",https://www.rew.ca/properties/R2283682/137-30930-westridge-place-abbotsford-bc,1367
-206,13-3902 Latimer Street,3,4,49.0703932,-122.2602076,"$599,999",https://www.rew.ca/properties/R2283579/13-3902-latimer-street-abbotsford-bc,1882
-207,217-3176 Gladwin Road,2,2,49.0585969,-122.312112171685,"$449,700",https://www.rew.ca/properties/R2283567/217-3176-gladwin-road-abbotsford-bc,1341
-208,327-32850 George Ferguson Way,1,2,49.0547353,-122.314740837114,"$259,000",https://www.rew.ca/properties/R2283616/327-32850-george-ferguson-way-abbotsford-bc,914
-209,3049 Tims Street,3,5,49.0575508,-122.3327005,"$789,700",https://www.rew.ca/properties/R2283372/3049-tims-street-abbotsford-bc,2500
-210,33667 Grace Avenue,2,3,49.1081403,-122.2924981,"$599,000",https://www.rew.ca/properties/R2280636/33667-grace-avenue-abbotsford-bc,1500
-211,1-5975 Riverside Street,0,0,49.1175146,-122.2943092,"$680,000",https://www.rew.ca/properties/R2282910/1-5975-riverside-street-abbotsford-bc,0
-212,3-5975 Riverside Street,0,0,49.1175146,-122.2943092,"$580,000",https://www.rew.ca/properties/R2282911/3-5975-riverside-street-abbotsford-bc,0
-213,2-5975 Riverside Street,0,0,49.1175146,-122.2943092,"$640,000",https://www.rew.ca/properties/R2282914/2-5975-riverside-street-abbotsford-bc,0
-214,44-34248 King Road,3,2,49.0313669,-122.4420411,"$515,000",https://www.rew.ca/properties/R2283603/44-34248-king-road-abbotsford-bc,1281
-215,101-33538 Marshall Road,1,1,49.03865465,-122.295097550067,"$279,000",https://www.rew.ca/properties/R2283025/101-33538-marshall-road-abbotsford-bc,555
-216,109-32445 Simon Avenue,1,1,49.0533613,-122.3196455,"$324,900",https://www.rew.ca/properties/R2283129/109-32445-simon-avenue-abbotsford-bc,743
-217,89-32633 Simon Avenue,3,2,49.0533613,-122.3196455,"$498,700",https://www.rew.ca/properties/R2283426/89-32633-simon-avenue-abbotsford-bc,1160
-218,34699 Delair Road,3,4,49.0379601,-122.2420457,"$899,000",https://www.rew.ca/properties/R2283403/34699-delair-road-abbotsford-bc,2858
-219,118-2533 Marcet Court,3,3,49.0471604,-122.2594301,"$489,900",https://www.rew.ca/properties/R2282385/118-2533-marcet-court-abbotsford-bc,1446
-220,626-34909 Old Yale Road,2,2,49.0481801,-122.2579657,"$319,900",https://www.rew.ca/properties/R2283368/626-34909-old-yale-road-abbotsford-bc,928
-221,79-32718 Garibaldi Drive,2,1,49.0578385,-122.3176302,"$345,678",https://www.rew.ca/properties/R2283257/79-32718-garibaldi-drive-abbotsford-bc,1145
-222,4-36130 Waterleaf Place,3,3,49.0426273,-122.222207983855,"$709,000",https://www.rew.ca/properties/R2283333/4-36130-waterleaf-place-abbotsford-bc,1810
-223,337-2451 Gladwin Road,2,2,49.0500461,-122.3150798,"$339,500",https://www.rew.ca/properties/R2283247/337-2451-gladwin-road-abbotsford-bc,1245
-224,9-36130 Waterleaf Place,3,3,49.0426273,-122.222207983855,"$659,000",https://www.rew.ca/properties/R2283337/9-36130-waterleaf-place-abbotsford-bc,1477
-225,35411 Eagle Summit Drive,4,6,49.0514213,-122.2434193,"$1,294,900",https://www.rew.ca/properties/R2283231/35411-eagle-summit-drive-abbotsford-bc,3821
-226,404-32445 Simon Avenue,1,1,49.0533613,-122.3196455,"$399,900",https://www.rew.ca/properties/R2282760/404-32445-simon-avenue-abbotsford-bc,962
-227,409-2700 Mccallum Road,1,2,49.0660418,-122.2863475,"$319,900",https://www.rew.ca/properties/R2283114/409-2700-mccallum-road-abbotsford-bc,902
-228,31831 Coral Avenue,3,4,49.0565669,-122.3407958,"$879,999",https://www.rew.ca/properties/R2282880/31831-coral-avenue-abbotsford-bc,2430
-229,138-30930 Westridge Place,3,3,49.0686481,-122.3605458,"$539,900",https://www.rew.ca/properties/R2282967/138-30930-westridge-place-abbotsford-bc,1265
-230,111-30930 Westridge Place,3,2,49.0686481,-122.3605458,"$499,900",https://www.rew.ca/properties/R2282961/111-30930-westridge-place-abbotsford-bc,1265
-231,33303 Plaxton Crescent,2,5,49.0462266,-122.3017932,"$849,000",https://www.rew.ca/properties/R2261575/33303-plaxton-crescent-abbotsford-bc,2552
-232,102-30930 Westridge Place,3,3,49.0686481,-122.3605458,"$599,900",https://www.rew.ca/properties/R2282957/102-30930-westridge-place-abbotsford-bc,1561
-233,36004 Empress Lane,5,5,49.051713,-122.2277455,"$1,298,800",https://www.rew.ca/properties/R2283004/36004-empress-lane-abbotsford-bc,4616
-234,2065 Mckenzie Road,1,2,49.0396087,-122.2826366,"$648,000",https://www.rew.ca/properties/R2222767/2065-mckenzie-road-abbotsford-bc,795
-235,206-2567 Victoria Street,2,2,-37.8117339,145.0133359,"$299,000",https://www.rew.ca/properties/R2282715/206-2567-victoria-street-abbotsford-bc,1025
-236,179-32550 Maclure Road,2,3,49.0597412,-122.3222066,"$442,000",https://www.rew.ca/properties/R2281448/179-32550-maclure-road-abbotsford-bc,1128
-237,109-2700 Mccallum Road,1,2,49.0660418,-122.2863475,"$319,000",https://www.rew.ca/properties/R2282888/109-2700-mccallum-road-abbotsford-bc,903
-238,32208 Peardonville Road,2,5,49.0454152,-122.3315099,"$949,000",https://www.rew.ca/properties/R2282522/32208-peardonville-road-abbotsford-bc,2554
-239,33409 King Road,0,0,49.0313332,-122.2985993,"$1,449,000",https://www.rew.ca/properties/R2280283/33409-king-road-abbotsford-bc,0
-240,52-33922 King Road,3,3,49.0313669,-122.4420411,"$547,500",https://www.rew.ca/properties/R2282865/52-33922-king-road-abbotsford-bc,2474
-241,28218 Layman Avenue,2,3,49.0798901,-122.4490822,"$1,990,000",https://www.rew.ca/properties/R2282579/28218-layman-avenue-abbotsford-bc,2346
-242,619 Marion Road,3,6,49.0796218,-122.1393634,"$2,089,600",https://www.rew.ca/properties/R2282931/619-marion-road-abbotsford-bc,2760
-243,301-33401 Mayfair Avenue,2,2,49.0405627,-122.298907563641,"$289,900",https://www.rew.ca/properties/R2282486/301-33401-mayfair-avenue-abbotsford-bc,1255
-244,11-33179 George Ferguson Way,3,4,49.051289,-122.2978599,"$579,900",https://www.rew.ca/properties/R2282721/11-33179-george-ferguson-way-abbotsford-bc,2751
-245,60-32959 George Ferguson Way,1,2,49.051289,-122.2978599,"$264,900",https://www.rew.ca/properties/R2282483/60-32959-george-ferguson-way-abbotsford-bc,1013
-246,12-33922 King Road,3,3,49.0313669,-122.4420411,"$549,900",https://www.rew.ca/properties/R2282388/12-33922-king-road-abbotsford-bc,2474
-247,107-32119 Old Yale Road,1,2,49.0481801,-122.2579657,"$239,900",https://www.rew.ca/properties/R2282801/107-32119-old-yale-road-abbotsford-bc,892
-248,410-33480 George Ferguson Way,2,2,49.051289,-122.2978599,"$362,900",https://www.rew.ca/properties/R2282794/410-33480-george-ferguson-way-abbotsford-bc,1021
-249,209-2750 Fuller Street,2,2,49.0517583,-122.3021937,"$289,000",https://www.rew.ca/properties/R2282532/209-2750-fuller-street-abbotsford-bc,1053
-250,32997 Aspen Avenue,4,4,49.0711733,-122.3105917,"$824,900",https://www.rew.ca/properties/R2282093/32997-aspen-avenue-abbotsford-bc,3323
-251,28857 Downes Street,2,4,,,"$2,500,000",https://www.rew.ca/properties/R2281931/28857-downes-street-abbotsford-bc,2555
-252,33303 Plaxton Crescent,2,5,49.0462266,-122.3017932,"$849,000",https://www.rew.ca/properties/R2261575/33303-plaxton-crescent-abbotsford-bc,2552
-253,2268 Clearbrook Road,3,4,49.04323365,-122.33671865078,"$699,000",https://www.rew.ca/properties/R2282124/2268-clearbrook-road-abbotsford-bc,1830
-254,10-4401 Blauson Boulevard,2,3,49.0795707,-122.2131824,"$499,900",https://www.rew.ca/properties/R2282135/10-4401-blauson-boulevard-abbotsford-bc,1224
-255,4216 Old Clayburn Road,3,5,49.0601029,-122.2621013,"$799,900",https://www.rew.ca/properties/R2282395/4216-old-clayburn-road-abbotsford-bc,2493
-256,30634 Crestview Avenue,3,5,49.0657632,-122.3771504,"$879,900",https://www.rew.ca/properties/R2282256/30634-crestview-avenue-abbotsford-bc,2388
-257,417-33280 E Bourquin Crescent,2,2,,,"$324,900",https://www.rew.ca/properties/R2282707/417-33280-e-bourquin-crescent-abbotsford-bc,1012
-258,18-4295 Old Clayburn Road,6,8,49.0601029,-122.2621013,"$1,095,000",https://www.rew.ca/properties/R2282475/18-4295-old-clayburn-road-abbotsford-bc,4285
-259,12-36060 Old Yale Road,3,3,49.0481801,-122.2579657,"$539,900",https://www.rew.ca/properties/R2282477/12-36060-old-yale-road-abbotsford-bc,1434
-260,4302 Pioneer Court,3,3,49.0805087,-122.2598104,"$799,900",https://www.rew.ca/properties/R2282537/4302-pioneer-court-abbotsford-bc,2187
-261,32866 Capilano Place,3,4,49.0604576,-122.3141768,"$729,900",https://www.rew.ca/properties/R2282372/32866-capilano-place-abbotsford-bc,2714
-262,36569 Dawson Road,2,4,49.0893973,-122.218077,"$1,350,000",https://www.rew.ca/properties/R2282272/36569-dawson-road-abbotsford-bc,2621
-263,211-32833 Landeau Place,2,2,49.0539759,-122.313802085917,"$286,900",https://www.rew.ca/properties/R2281821/211-32833-landeau-place-abbotsford-bc,1096
-264,34840 Orchard Drive,3,4,49.0461101,-122.2571944,"$968,000",https://www.rew.ca/properties/R2282312/34840-orchard-drive-abbotsford-bc,3895
-265,17-4295 Old Clayburn Road,4,6,49.0601029,-122.2621013,"$999,000",https://www.rew.ca/properties/R2281719/17-4295-old-clayburn-road-abbotsford-bc,3958
-266,32314 Peardonville Road,2,5,49.0453173,-122.3286949,"$1,099,000",https://www.rew.ca/properties/R2279396/32314-peardonville-road-abbotsford-bc,2640
-267,202-33839 Marshall Road,2,2,49.0381762,-122.3120201,"$349,000",https://www.rew.ca/properties/R2282084/202-33839-marshall-road-abbotsford-bc,950
-268,1503-3190 Gladwin Road,2,2,49.05944385,-122.314254946519,"$542,800",https://www.rew.ca/properties/R2281442/1503-3190-gladwin-road-abbotsford-bc,1160
-269,204-33731 Marshall Road,2,2,49.0381762,-122.3120201,"$399,000",https://www.rew.ca/properties/R2281684/204-33731-marshall-road-abbotsford-bc,1240
-270,102-30989 Westridge Place,3,3,49.0686481,-122.3605458,"$519,800",https://www.rew.ca/properties/R2281656/102-30989-westridge-place-abbotsford-bc,1398
-271,2469 Crescent Way,1,1,49.04692685,-122.296190866949,"$594,500",https://www.rew.ca/properties/R2281637/2469-crescent-way-abbotsford-bc,855
-272,111-2780 Ware Street,1,1,49.0443664,-122.3044922,"$249,000",https://www.rew.ca/properties/R2282050/111-2780-ware-street-abbotsford-bc,705
-273,33667 Grace Avenue,2,3,49.1081403,-122.2924981,"$599,000",https://www.rew.ca/properties/R2280636/33667-grace-avenue-abbotsford-bc,1500
-274,35527 Eagle Summit Drive,5,5,49.0514213,-122.2434193,"$1,388,000",https://www.rew.ca/properties/R2280510/35527-eagle-summit-drive-abbotsford-bc,3756
-275,210-33718 King Road,2,2,49.0313669,-122.4420411,"$369,900",https://www.rew.ca/properties/R2282074/210-33718-king-road-abbotsford-bc,924
-276,110-2581 Langdon Street,2,2,49.0503629,-122.3308813,"$335,000",https://www.rew.ca/properties/R2282343/110-2581-langdon-street-abbotsford-bc,950
-277,15-4401 Blauson Boulevard,2,3,49.0795707,-122.2131824,"$499,900",https://www.rew.ca/properties/R2282249/15-4401-blauson-boulevard-abbotsford-bc,1303
-278,102-2567 Victoria Street,1,2,-37.8117339,145.0133359,"$299,700",https://www.rew.ca/properties/R2282229/102-2567-victoria-street-abbotsford-bc,861
-279,35191 Christina Place,4,6,49.074291,-122.250988,"$915,000",https://www.rew.ca/properties/R2281393/35191-christina-place-abbotsford-bc,3784
-280,301-2955 Diamond Crescent,2,2,49.05621515,-122.328618409248,"$369,900",https://www.rew.ca/properties/R2282144/301-2955-diamond-crescent-abbotsford-bc,990
-281,302-1755 Salton Road,1,2,49.03532,-122.287679,"$299,000",https://www.rew.ca/properties/R2282011/302-1755-salton-road-abbotsford-bc,947
-282,35040 Laburnum Avenue,3,5,49.0644452,-122.2580006,"$749,900",https://www.rew.ca/properties/R2282091/35040-laburnum-avenue-abbotsford-bc,2636
-283,30676 W Osprey Drive,3,4,,,"$799,000",https://www.rew.ca/properties/R2282013/30676-w-osprey-drive-abbotsford-bc,2720
-284,34757 Millstone Way,3,4,49.0677181,-122.2626873,"$959,000",https://www.rew.ca/properties/R2281976/34757-millstone-way-abbotsford-bc,3384
-285,5-33915 Mayfair Avenue,2,3,49.0401392,-122.2877986,"$410,000",https://www.rew.ca/properties/R2281819/5-33915-mayfair-avenue-abbotsford-bc,1620
-286,216-33318 E Bourquin Crescent,2,2,,,"$464,700",https://www.rew.ca/properties/R2281795/216-33318-e-bourquin-crescent-abbotsford-bc,1226
-287,3275 Firhill Drive,3,5,49.0636612,-122.3633582,"$824,900",https://www.rew.ca/properties/R2281332/3275-firhill-drive-abbotsford-bc,3083
-288,32082 Tims Avenue,2,5,49.0537694,-122.3353228,"$799,999",https://www.rew.ca/properties/R2281364/32082-tims-avenue-abbotsford-bc,2420
-289,214-33738 King Road,2,2,49.0309027,-122.2894906,"$329,900",https://www.rew.ca/properties/R2281662/214-33738-king-road-abbotsford-bc,929
-290,103-32910 Amicus Place,1,2,49.053597,-122.3114092,"$299,900",https://www.rew.ca/properties/R2280007/103-32910-amicus-place-abbotsford-bc,977
-291,8-33293 E Bourquin Crescent,3,3,,,"$415,000",https://www.rew.ca/properties/R2280966/8-33293-e-bourquin-crescent-abbotsford-bc,2094
-292,1286 Ross Road,0,0,49.1049301,-122.4042348,"$2,599,000",https://www.rew.ca/properties/R2281326/1286-ross-road-abbotsford-bc,0
-293,41010 No. 2 Road,5,5,49.1040983,-122.0951316,"$2,149,700",https://www.rew.ca/properties/R2281294/41010-no-2-road-abbotsford-bc,2784
-294,211-31955 Old Yale Road,1,2,49.0481801,-122.2579657,"$240,000",https://www.rew.ca/properties/R2274586/211-31955-old-yale-road-abbotsford-bc,1092
-295,35224 Mckee Road,2,4,49.065393,-122.2432137,"$689,000",https://www.rew.ca/properties/R2281005/35224-mckee-road-abbotsford-bc,1760
-296,402-2990 Boulder Street,2,2,49.0558141,-122.329321940075,"$389,999",https://www.rew.ca/properties/R2281579/402-2990-boulder-street-abbotsford-bc,1000
-297,103-2533 Marcet Court,3,3,49.0471604,-122.2594301,"$469,000",https://www.rew.ca/properties/R2281494/103-2533-marcet-court-abbotsford-bc,1446
-298,116-2860 Trethewey Street,1,1,49.0601099,-122.3269446,"$475,000",https://www.rew.ca/properties/R2281278/116-2860-trethewey-street-abbotsford-bc,1087
-299,27637 Signal Court,4,6,49.0544252,-122.4584097,"$859,900",https://www.rew.ca/properties/R2281468/27637-signal-court-abbotsford-bc,2875
-300,129-4001 Old Clayburn Road,3,4,49.0601029,-122.2621013,"$749,900",https://www.rew.ca/properties/R2281435/129-4001-old-clayburn-road-abbotsford-bc,2888
-301,19-32858 Landeau Place,4,3,49.0536325,-122.3142359,"$480,000",https://www.rew.ca/properties/R2281481/19-32858-landeau-place-abbotsford-bc,2030
-302,207-1909 Salton Road,1,2,49.03532,-122.287679,"$278,000",https://www.rew.ca/properties/R2281385/207-1909-salton-road-abbotsford-bc,919
-303,36400 Epworth Court,7,5,49.0550618,-122.217484,"$1,679,000",https://www.rew.ca/properties/R2281595/36400-epworth-court-abbotsford-bc,4907
-304,3440 Promontory Court,5,7,49.0661022,-122.347872,"$1,050,000",https://www.rew.ca/properties/R2281173/3440-promontory-court-abbotsford-bc,4025
-305,418-2678 Mccallum Road,1,1,49.0504796,-122.292963469823,"$210,000",https://www.rew.ca/properties/R2281544/418-2678-mccallum-road-abbotsford-bc,730
-306,10-33293 E Bourquin Crescent,3,3,,,"$500,000",https://www.rew.ca/properties/R2280893/10-33293-e-bourquin-crescent-abbotsford-bc,1700
-307,303-2955 Diamond Crescent,1,1,49.05621515,-122.328618409248,"$319,800",https://www.rew.ca/properties/R2280507/303-2955-diamond-crescent-abbotsford-bc,795
-308,35349 Belanger Drive,4,3,49.0780318,-122.2480386,"$1,174,999",https://www.rew.ca/properties/R2281172/35349-belanger-drive-abbotsford-bc,3290
-309,3115 Mouat Drive,3,4,49.0587428,-122.3315356,"$864,700",https://www.rew.ca/properties/R2281436/3115-mouat-drive-abbotsford-bc,2680
-310,29-1973 Winfield Drive,3,3,49.0404023,-122.2277738,"$549,900",https://www.rew.ca/properties/R2280977/29-1973-winfield-drive-abbotsford-bc,2262
-311,112-2990 Boulder Street,2,2,49.0558141,-122.329321940075,"$369,900",https://www.rew.ca/properties/R2281408/112-2990-boulder-street-abbotsford-bc,950
-312,35064 Laburnum Avenue,3,4,49.0644452,-122.2580006,"$729,900",https://www.rew.ca/properties/R2281079/35064-laburnum-avenue-abbotsford-bc,1961
-313,112-33030 George Ferguson Way,2,2,49.051289,-122.2978599,"$314,900",https://www.rew.ca/properties/R2281378/112-33030-george-ferguson-way-abbotsford-bc,1213
-314,221-32725 George Ferguson Way,2,2,49.051289,-122.2978599,"$344,900",https://www.rew.ca/properties/R2280983/221-32725-george-ferguson-way-abbotsford-bc,920
-315,33667 Grace Avenue,2,3,49.1081403,-122.2924981,"$599,000",https://www.rew.ca/properties/R2280636/33667-grace-avenue-abbotsford-bc,1500
-316,304-2526 Lakeview Crescent,2,2,49.0490921,-122.305982430247,"$329,900",https://www.rew.ca/properties/R2281361/304-2526-lakeview-crescent-abbotsford-bc,946
-317,31127 Kingfisher Place,4,5,49.0596836,-122.3620008,"$979,900",https://www.rew.ca/properties/R2280965/31127-kingfisher-place-abbotsford-bc,4448
-318,203-2211 Clearbrook Road,1,1,49.0563404,-122.3379041,"$269,900",https://www.rew.ca/properties/R2281217/203-2211-clearbrook-road-abbotsford-bc,660
-319,27802 Pullman Avenue,3,4,49.0573151,-122.4530427,"$924,900",https://www.rew.ca/properties/R2281095/27802-pullman-avenue-abbotsford-bc,3343
-320,111-32725 George Ferguson Way,2,2,49.051289,-122.2978599,"$325,000",https://www.rew.ca/properties/R2279225/111-32725-george-ferguson-way-abbotsford-bc,912
-321,32070 Mt Waddington Avenue,1,2,49.05263805,-122.335705246888,"$800,000",https://www.rew.ca/properties/R2281182/32070-mt-waddington-avenue-abbotsford-bc,1390
-322,2810 Pacific Place,3,5,49.0522212,-122.336924095463,"$819,000",https://www.rew.ca/properties/R2281045/2810-pacific-place-abbotsford-bc,2922
-323,27644 Lundeberg Avenue,4,6,49.0487884,-122.4581355,"$1,149,000",https://www.rew.ca/properties/R2281106/27644-lundeberg-avenue-abbotsford-bc,3988
-324,25-33293 E Bourquin Crescent,3,3,,,"$499,000",https://www.rew.ca/properties/R2280817/25-33293-e-bourquin-crescent-abbotsford-bc,1633
-325,5065 Glenmore Road,3,4,49.1001838,-122.338355,"$1,449,000",https://www.rew.ca/properties/R2280749/5065-glenmore-road-abbotsford-bc,1800
-326,35535 Eagle Summit Drive,5,5,49.0514213,-122.2434193,"$1,350,000",https://www.rew.ca/properties/R2280508/35535-eagle-summit-drive-abbotsford-bc,5571
-327,202-33728 King Road,2,2,49.0306672,-122.2894728,"$345,000",https://www.rew.ca/properties/R2280414/202-33728-king-road-abbotsford-bc,947
-328,29652 Huntingdon Road,6,4,49.016877,-122.4482046,"$2,399,000",https://www.rew.ca/properties/R2280564/29652-huntingdon-road-abbotsford-bc,4770
-329,2734 Sheffield Way,5,7,,,"$1,488,800",https://www.rew.ca/properties/R2279404/2734-sheffield-way-abbotsford-bc,3300
-330,402-33688 King Road,2,2,49.0306372,-122.2911998,"$329,999",https://www.rew.ca/properties/R2280820/402-33688-king-road-abbotsford-bc,924
-331,27685 Fraser Highway,5,6,49.0576237,-122.4588389,"$878,800",https://www.rew.ca/properties/R2280114/27685-fraser-highway-abbotsford-bc,2980
-332,34447 Immel Street,3,5,49.0554092,-122.2720858,"$770,000",https://www.rew.ca/properties/R2279918/34447-immel-street-abbotsford-bc,2130
-333,207-2585 Ware Street,2,2,49.04888035,-122.305022567913,"$344,500",https://www.rew.ca/properties/R2279787/207-2585-ware-street-abbotsford-bc,985
-334,1909 Horizon Street,3,4,49.0367606,-122.3001912,"$824,900",https://www.rew.ca/properties/R2279580/1909-horizon-street-abbotsford-bc,2540
-335,28929 King Road,0,0,49.0313669,-122.4420411,"$799,900",https://www.rew.ca/properties/R2280776/28929-king-road-abbotsford-bc,0
-336,33667 Grace Avenue,2,3,49.1081403,-122.2924981,"$599,000",https://www.rew.ca/properties/R2280636/33667-grace-avenue-abbotsford-bc,1500
-337,3751 Harwood Crescent,3,4,49.0701732,-122.3125271,"$774,900",https://www.rew.ca/properties/R2280622/3751-harwood-crescent-abbotsford-bc,2000
-338,19-34755 Old Yale Road,3,3,49.0481801,-122.2579657,"$469,000",https://www.rew.ca/properties/R2280337/19-34755-old-yale-road-abbotsford-bc,1683
-339,217-32445 Simon Avenue,2,2,49.0533613,-122.3196455,"$490,000",https://www.rew.ca/properties/R2280138/217-32445-simon-avenue-abbotsford-bc,1269
-340,32065 Dormick Avenue,2,2,49.04403645,-122.33518935,"$749,900",https://www.rew.ca/properties/R2280732/32065-dormick-avenue-abbotsford-bc,1976
-341,11-33123 George Ferguston Way,2,2,,,"$340,000",https://www.rew.ca/properties/R2280352/11-33123-george-ferguston-way-abbotsford-bc,1350
-342,78-35287 Old Yale Road,3,3,49.0477942,-122.264603856495,"$514,800",https://www.rew.ca/properties/R2280191/78-35287-old-yale-road-abbotsford-bc,1746
-343,509-32445 Simon Avenue,2,2,49.0533613,-122.3196455,"$659,900",https://www.rew.ca/properties/R2280534/509-32445-simon-avenue-abbotsford-bc,1925
-344,2802 Upland Crescent,3,4,49.0537743,-122.3461506,"$989,000",https://www.rew.ca/properties/R2280549/2802-upland-crescent-abbotsford-bc,3112
-345,2646 Platinum Lane,4,4,49.0505775,-122.2425855,"$1,688,000",https://www.rew.ca/properties/R2278784/2646-platinum-lane-abbotsford-bc,5103
-346,2229 Carleton Place,3,5,49.0426192,-122.2579935,"$785,000",https://www.rew.ca/properties/R2280001/2229-carleton-place-abbotsford-bc,2864
-347, Lot 7 Willet Road,0,0,49.0929958,-122.2223433,"$799,000",https://www.rew.ca/properties/R2279742/lot-7-willet-road-abbotsford-bc,0
-348,214-33546 Holland Avenue,1,1,49.03769595,-122.294782485699,"$299,800",https://www.rew.ca/properties/R2279720/214-33546-holland-avenue-abbotsford-bc,678
-349,25-30748 Cardinal Avenue,3,4,49.0588888,-122.3758115,"$639,000",https://www.rew.ca/properties/R2279569/25-30748-cardinal-avenue-abbotsford-bc,2341
-350,2548 Guilford Drive,2,4,,,"$1,099,000",https://www.rew.ca/properties/R2279403/2548-guilford-drive-abbotsford-bc,1835
-351,105-2565 Ware Street,1,1,49.0443664,-122.3044922,"$360,000",https://www.rew.ca/properties/R2280405/105-2565-ware-street-abbotsford-bc,694
-352,202-30515 Cardinal Avenue,1,1,49.06214655,-122.37943595017,"$309,900",https://www.rew.ca/properties/R2280051/202-30515-cardinal-avenue-abbotsford-bc,740
-353,34995 Skyline Drive,4,3,49.0363272,-122.2598471,"$1,189,900",https://www.rew.ca/properties/R2280396/34995-skyline-drive-abbotsford-bc,3350
-354,31497 Spur Avenue,3,6,,,"$929,000",https://www.rew.ca/properties/R2279914/31497-spur-avenue-abbotsford-bc,2740
-355,113-4001 Old Clayburn Road,3,4,49.0601029,-122.2621013,"$669,000",https://www.rew.ca/properties/R2280148/113-4001-old-clayburn-road-abbotsford-bc,2888
-356,302-30525 Cardinal Avenue,1,1,49.06202805,-122.378707988993,"$289,900",https://www.rew.ca/properties/R2280064/302-30525-cardinal-avenue-abbotsford-bc,626
-357,33667 Grace Avenue,2,3,49.1081403,-122.2924981,"$599,000",https://www.rew.ca/properties/R2280636/33667-grace-avenue-abbotsford-bc,1500
-358,84-34248 King Road,3,2,49.0313669,-122.4420411,"$498,000",https://www.rew.ca/properties/R2280202/84-34248-king-road-abbotsford-bc,1212
-359,305-33568 George Ferguson Way,3,3,49.05013995,-122.294732543435,"$509,900",https://www.rew.ca/properties/R2279811/305-33568-george-ferguson-way-abbotsford-bc,1089
-360,1783 Fairview Street,2,4,49.0343726,-122.3041043,"$699,900",https://www.rew.ca/properties/R2280267/1783-fairview-street-abbotsford-bc,2140
-361,301-33568 George Ferguson Way,1,2,49.05013995,-122.294732543435,"$374,900",https://www.rew.ca/properties/R2279808/301-33568-george-ferguson-way-abbotsford-bc,798
-362,32817 Gatefield Avenue,3,5,49.0725764,-122.3155786,"$725,000",https://www.rew.ca/properties/R2279754/32817-gatefield-avenue-abbotsford-bc,2120
-363,3983 Paradise Place,3,8,49.0734121,-122.2531525,"$1,280,000",https://www.rew.ca/properties/R2280063/3983-paradise-place-abbotsford-bc,4400
-364,35624 Dina Place,3,3,49.0404324,-122.2409114,"$839,900",https://www.rew.ca/properties/R2279913/35624-dina-place-abbotsford-bc,2400
-365,31151 Creekside Drive,3,5,49.0548479,-122.3616962,"$869,900",https://www.rew.ca/properties/R2278872/31151-creekside-drive-abbotsford-bc,2390
-366,218-32083 Hillcrest Avenue,3,3,49.0481539,-122.3354588,"$449,900",https://www.rew.ca/properties/R2279717/218-32083-hillcrest-avenue-abbotsford-bc,1195
-367,35383 Sandyhill Road,3,4,,,"$799,000",https://www.rew.ca/properties/R2279427/35383-sandyhill-road-abbotsford-bc,2300
-368,104-32063 Mt Waddington Avenue,2,2,49.0528018,-122.3353603,"$369,900",https://www.rew.ca/properties/R2279083/104-32063-mt-waddington-avenue-abbotsford-bc,1001
-369,34490 Immel Street,3,5,49.0623735,-122.2665396,"$898,500",https://www.rew.ca/properties/R2278658/34490-immel-street-abbotsford-bc,2577
-370,3482 Hill Park Place,7,7,49.0652208,-122.3646602,"$1,324,888",https://www.rew.ca/properties/R2279092/3482-hill-park-place-abbotsford-bc,4133
-371,419-30525 Cardinal Avenue,1,2,49.06202805,-122.378707988993,"$369,900",https://www.rew.ca/properties/R2279576/419-30525-cardinal-avenue-abbotsford-bc,749
-372,104-36060 Old Yale Road,3,3,49.0481801,-122.2579657,"$469,700",https://www.rew.ca/properties/R2279510/104-36060-old-yale-road-abbotsford-bc,1433
-373,117-33960 Old Yale Road,1,1,49.0481801,-122.2579657,"$269,900",https://www.rew.ca/properties/R2279646/117-33960-old-yale-road-abbotsford-bc,709
-374,10-35689 Goodbrand Drive,6,5,49.0487392,-122.2358097,"$2,415,000",https://www.rew.ca/properties/R2279337/10-35689-goodbrand-drive-abbotsford-bc,6075
-375,112-2575 Ware Street,2,2,49.04859145,-122.305556344609,"$334,900",https://www.rew.ca/properties/R2278906/112-2575-ware-street-abbotsford-bc,1140
-376,417-2233 Mckenzie Road,1,1,49.0296497,-122.2819999,"$294,900",https://www.rew.ca/properties/R2279515/417-2233-mckenzie-road-abbotsford-bc,600
-377,208-32110 Tims Avenue,2,2,49.0539177,-122.3363614,"$265,000",https://www.rew.ca/properties/R2278662/208-32110-tims-avenue-abbotsford-bc,945
-378,2087 Emerson Street,3,5,49.0397701,-122.3187291,"$734,800",https://www.rew.ca/properties/R2275188/2087-emerson-street-abbotsford-bc,2800
-379,30929 Sandpiper Drive,4,5,49.061591,-122.3732938,"$829,900",https://www.rew.ca/properties/R2279174/30929-sandpiper-drive-abbotsford-bc,2493
-380,3678 Greendale Court,6,8,49.069213,-122.3799466,"$1,139,000",https://www.rew.ca/properties/R2278684/3678-greendale-court-abbotsford-bc,4600
-381,417-2485 Montrose Avenue,3,2,49.0471593,-122.290822627263,"$544,900",https://www.rew.ca/properties/R2278262/417-2485-montrose-avenue-abbotsford-bc,1129
-382,3855 Caves Court,3,6,49.0736817,-122.243119,"$1,025,000",https://www.rew.ca/properties/R2278796/3855-caves-court-abbotsford-bc,3530
-383,117-4595 Sumas Mountain Road,4,5,49.0780704,-122.2055574,"$1,069,000",https://www.rew.ca/properties/R2278820/117-4595-sumas-mountain-road-abbotsford-bc,3471
-384,Lot 3-2960 Bergman Street,0,0,49.0534155,-122.4556804,"$590,000",https://www.rew.ca/properties/R2274969/lot-3-2960-bergman-street-abbotsford-bc,0
-385,83-32633 Simon Avenue,3,3,49.0533613,-122.3196455,"$554,900",https://www.rew.ca/properties/R2279232/83-32633-simon-avenue-abbotsford-bc,1285
-386,71-32777 Chilcotin Drive,3,3,49.0701197,-122.3207045,"$575,700",https://www.rew.ca/properties/R2279213/71-32777-chilcotin-drive-abbotsford-bc,2628
-387,101-3170 Gladwin Road,2,2,49.05863605,-122.314177707286,"$474,500",https://www.rew.ca/properties/R2279015/101-3170-gladwin-road-abbotsford-bc,1159
-388,3438 Blue Jay Street,4,5,49.0559779,-122.3704118,"$1,049,700",https://www.rew.ca/properties/R2278496/3438-blue-jay-street-abbotsford-bc,3867
-389,2305 Southdale Crescent,4,6,49.044034,-122.348292,"$735,000",https://www.rew.ca/properties/R2279064/2305-southdale-crescent-abbotsford-bc,2190
-390,35238 Briarwood Place,4,3,49.045018,-122.2480413,"$1,499,900",https://www.rew.ca/properties/R2278846/35238-briarwood-place-abbotsford-bc,4082
-391,2288 Mouldstade Road,1,2,49.0435854,-122.2863216,"$749,900",https://www.rew.ca/properties/R2278980/2288-mouldstade-road-abbotsford-bc,748
-392,4361 Atwood Crescent,4,3,49.0806185,-122.2213123,"$699,900",https://www.rew.ca/properties/R2278775/4361-atwood-crescent-abbotsford-bc,2276
-393,3523 Mierau Court,3,4,49.0660428,-122.2649352,"$669,900",https://www.rew.ca/properties/R2278901/3523-mierau-court-abbotsford-bc,1800
-394,19-35298 Marshall Road,4,3,49.0381762,-122.3120201,"$745,000",https://www.rew.ca/properties/R2278600/19-35298-marshall-road-abbotsford-bc,2905
-395,34869 High Drive,2,5,55.9094219,-4.2049682,"$799,900",https://www.rew.ca/properties/R2278168/34869-high-drive-abbotsford-bc,2492
-396,204-2581 Langdon Street,1,1,49.0503629,-122.3308813,"$329,900",https://www.rew.ca/properties/R2274362/204-2581-langdon-street-abbotsford-bc,810
-397,118-2962 Trethewey Street,2,2,49.05653685,-122.324188320524,"$303,500",https://www.rew.ca/properties/R2273166/118-2962-trethewey-street-abbotsford-bc,985
-398,2664 Platinum Lane,4,5,49.0505775,-122.2425855,"$1,549,000",https://www.rew.ca/properties/R2270325/2664-platinum-lane-abbotsford-bc,5074
-399,33667 Grace Avenue,2,3,49.1081403,-122.2924981,"$599,000",https://www.rew.ca/properties/R2280636/33667-grace-avenue-abbotsford-bc,1500
-400,211-33545 Rainbow Avenue,2,2,49.0372755,-122.294755701354,"$379,900",https://www.rew.ca/properties/R2278543/211-33545-rainbow-avenue-abbotsford-bc,933
-401,209-33545 Rainbow Avenue,2,2,49.0372755,-122.294755701354,"$379,900",https://www.rew.ca/properties/R2278526/209-33545-rainbow-avenue-abbotsford-bc,933
-402,33516 Kinsale Place,3,4,49.0290726,-122.2956265,"$698,900",https://www.rew.ca/properties/R2278161/33516-kinsale-place-abbotsford-bc,2065
-403,34049 Higginson Crescent,6,7,49.0326667,-122.2807732,"$1,199,000",https://www.rew.ca/properties/R2278220/34049-higginson-crescent-abbotsford-bc,3925
-404,126-32691 Garibaldi Drive,2,1,49.0578385,-122.3176302,"$304,900",https://www.rew.ca/properties/R2278356/126-32691-garibaldi-drive-abbotsford-bc,1166
-405,2390 Orchard Drive,3,4,49.0461101,-122.2571944,"$879,000",https://www.rew.ca/properties/R2278134/2390-orchard-drive-abbotsford-bc,2761
-406,111-33535 King Road,2,2,49.0313669,-122.4420411,"$274,900",https://www.rew.ca/properties/R2278122/111-33535-king-road-abbotsford-bc,1087
-407,224-2233 Mckenzie Road,2,2,49.0296497,-122.2819999,"$356,388",https://www.rew.ca/properties/R2278169/224-2233-mckenzie-road-abbotsford-bc,885
-408,31476 Jean Court,4,4,49.0590015,-122.3533202,"$899,500",https://www.rew.ca/properties/R2277988/31476-jean-court-abbotsford-bc,3399
-409,2388 Alder Street,6,7,49.0456142,-122.3402602,"$1,299,000",https://www.rew.ca/properties/R2277985/2388-alder-street-abbotsford-bc,4000
-410,8-3800 Golf Course Drive,3,5,49.07337495,-122.224252151035,"$929,900",https://www.rew.ca/properties/R2277699/8-3800-golf-course-drive-abbotsford-bc,4162
-411, LW1-2485 Montrose Avenue,2,1,49.0471593,-122.290822627263,"$539,900",https://www.rew.ca/properties/R2278092/lw1-2485-montrose-avenue-abbotsford-bc,1057
-412,210-2853 W Bourquin Crescent,1,2,,,"$289,000",https://www.rew.ca/properties/R2277927/210-2853-w-bourquin-crescent-abbotsford-bc,908
-413,4393 N Auguston Parkway,3,3,,,"$1,049,000",https://www.rew.ca/properties/R2277910/4393-n-auguston-parkway-abbotsford-bc,3835
-414,31-2050 Gladwin Road,3,3,49.0500461,-122.3150798,"$439,000",https://www.rew.ca/properties/R2277493/31-2050-gladwin-road-abbotsford-bc,1806
-415,35324 Raven Court,0,0,49.0520354,-122.245817,"$849,000",https://www.rew.ca/properties/R2277781/35324-raven-court-abbotsford-bc,0
-416,35330 Raven Court,0,0,49.0520354,-122.245817,"$1,350,000",https://www.rew.ca/properties/R2277784/35330-raven-court-abbotsford-bc,0
-417,35336 Raven Court,0,0,49.0520354,-122.245817,"$1,250,000",https://www.rew.ca/properties/R2277783/35336-raven-court-abbotsford-bc,0
-418,35342 Raven Court,0,0,49.0520354,-122.245817,"$849,000",https://www.rew.ca/properties/R2277782/35342-raven-court-abbotsford-bc,0
-419,2698 Townline Road,3,5,49.0676476,-122.3598184,"$729,000",https://www.rew.ca/properties/R2277839/2698-townline-road-abbotsford-bc,2032
-420,35465 Nakiska Court,3,5,49.0707039,-122.242132,"$929,800",https://www.rew.ca/properties/R2275900/35465-nakiska-court-abbotsford-bc,2670
-421,35495 Verado Court,0,0,49.052476,-122.2421318,"$950,000",https://www.rew.ca/properties/R2277779/35495-verado-court-abbotsford-bc,0
-422,27916 Conductor Drive,5,6,49.0583155,-122.4487488,"$1,089,000",https://www.rew.ca/properties/R2277834/27916-conductor-drive-abbotsford-bc,2978
-423,35478 Verado Court,0,0,,,"$1,100,000",https://www.rew.ca/properties/R2277780/35478-verado-court-abbotsford-bc,0
-424,35483 Verado Court,0,0,49.052476,-122.2421318,"$950,000",https://www.rew.ca/properties/R2277778/35483-verado-court-abbotsford-bc,0
-425,3171 Engineer Crescent,7,7,,,"$1,200,000",https://www.rew.ca/properties/R2277822/3171-engineer-crescent-abbotsford-bc,4053
-426,57-3030 Trethewey Street,2,3,49.0576426,-122.3262136,"$454,000",https://www.rew.ca/properties/R2277713/57-3030-trethewey-street-abbotsford-bc,1128
-427,424-2565 Campbell Avenue,1,1,49.0496639,-122.2825891,"$349,000",https://www.rew.ca/properties/R2277857/424-2565-campbell-avenue-abbotsford-bc,808
-428,36198 Lower Sumas Mountain Road,4,7,49.049568,-122.2228341,"$1,078,888",https://www.rew.ca/properties/R2277735/36198-lower-sumas-mountain-road-abbotsford-bc,4286
-429,35324 Selkirk Avenue,2,4,49.0614585,-122.2460013,"$644,900",https://www.rew.ca/properties/R2277724/35324-selkirk-avenue-abbotsford-bc,1772
-430,27636 Roundhouse Drive,7,8,49.0566238,-122.4539931,"$1,288,888",https://www.rew.ca/properties/R2277486/27636-roundhouse-drive-abbotsford-bc,4181
-431,48-3030 Trethewey Street,2,3,49.0576426,-122.3262136,"$449,900",https://www.rew.ca/properties/R2276759/48-3030-trethewey-street-abbotsford-bc,1185
-432,105-2958 Trethewey Street,2,2,49.05617785,-122.325725200683,"$334,900",https://www.rew.ca/properties/R2277037/105-2958-trethewey-street-abbotsford-bc,921
-433,3501 Hill Park Place,6,8,49.0652208,-122.3646602,"$1,199,000",https://www.rew.ca/properties/R2277025/3501-hill-park-place-abbotsford-bc,3887
-434,3139 Coronation Court,3,6,49.0588742,-122.3414054,"$849,900",https://www.rew.ca/properties/R2276729/3139-coronation-court-abbotsford-bc,2138
-435,115-32175 Old Yale Road,1,1,49.0481801,-122.2579657,"$234,700",https://www.rew.ca/properties/R2276614/115-32175-old-yale-road-abbotsford-bc,520
-436,36108 Spyglass Lane,4,5,,,"$949,500",https://www.rew.ca/properties/R2277690/36108-spyglass-lane-abbotsford-bc,3682
-437,2605 Parkview Street,2,4,49.048393,-122.3324485,"$869,900",https://www.rew.ca/properties/R2277644/2605-parkview-street-abbotsford-bc,2050
-438,32264 Atwater Crescent,3,4,49.0604053,-122.3308076,"$749,000",https://www.rew.ca/properties/R2277491/32264-atwater-crescent-abbotsford-bc,2056
-439,2482 Grosvenor Place,3,3,49.0470667,-122.2741254,"$859,900",https://www.rew.ca/properties/R2277579/2482-grosvenor-place-abbotsford-bc,2585
-440,2904 Royal Street,3,4,49.057327,-122.3392615,"$768,000",https://www.rew.ca/properties/R2277492/2904-royal-street-abbotsford-bc,2432
-441,12-2048 Mccallum Road,2,2,49.0660418,-122.2863475,"$335,000",https://www.rew.ca/properties/R2267564/12-2048-mccallum-road-abbotsford-bc,990
-442,410-31831 Peardonville Road,2,2,49.046217,-122.3704449,"$335,000",https://www.rew.ca/properties/R2277510/410-31831-peardonville-road-abbotsford-bc,1023
-443,205-33318 E Bourquin Crescent,2,2,,,"$384,500",https://www.rew.ca/properties/R2277311/205-33318-e-bourquin-crescent-abbotsford-bc,909
-444,32533 George Ferguson Way,2,4,49.0550545,-122.3230738,"$729,900",https://www.rew.ca/properties/R2277281/32533-george-ferguson-way-abbotsford-bc,1680
-445,22-33860 Marshall Road,4,3,49.0381762,-122.3120201,"$548,800",https://www.rew.ca/properties/R2277006/22-33860-marshall-road-abbotsford-bc,1658
-446,2379 Anora Drive,3,5,49.0430248,-122.2607945,"$898,000",https://www.rew.ca/properties/R2277142/2379-anora-drive-abbotsford-bc,2620
-447,120-2233 Mckenzie Road,1,1,49.0296497,-122.2819999,"$304,900",https://www.rew.ca/properties/R2275481/120-2233-mckenzie-road-abbotsford-bc,667
-448,303-33538 Marshall Road,1,1,49.03865465,-122.295097550067,"$310,000",https://www.rew.ca/properties/R2276994/303-33538-marshall-road-abbotsford-bc,673
-449,2448 Sunrise Park Drive,3,5,49.0474697,-122.2219407,"$799,900",https://www.rew.ca/properties/R2275343/2448-sunrise-park-drive-abbotsford-bc,3296
-450,1405-3170 Gladwin Road,2,2,49.05863605,-122.314177707286,"$448,800",https://www.rew.ca/properties/R2275582/1405-3170-gladwin-road-abbotsford-bc,1191
-451,34869 Ackerman Court,0,0,,,"$549,000",https://www.rew.ca/properties/R2277035/34869-ackerman-court-abbotsford-bc,0
-452,34874 Ackerman Court,0,0,,,"$499,000",https://www.rew.ca/properties/R2277080/34874-ackerman-court-abbotsford-bc,0
-453,34875 Ackerman Court,0,0,49.0343844,-122.2578671,"$549,000",https://www.rew.ca/properties/R2277066/34875-ackerman-court-abbotsford-bc,0
-454,34863 Ackerman Court,0,0,49.0343844,-122.2578671,"$549,000",https://www.rew.ca/properties/R2277051/34863-ackerman-court-abbotsford-bc,0
-455,34868 Ackerman Court,0,0,49.0343844,-122.2578671,"$459,000",https://www.rew.ca/properties/R2277021/34868-ackerman-court-abbotsford-bc,0
-456,34862 Ackerman Court,0,0,49.0343844,-122.2578671,"$499,000",https://www.rew.ca/properties/R2276480/34862-ackerman-court-abbotsford-bc,0
-457,2732 Sandon Drive,2,3,49.0513963,-122.2644511,"$538,800",https://www.rew.ca/properties/R2276967/2732-sandon-drive-abbotsford-bc,1509
-458,103-2962 Trethewey Street,2,2,49.05653685,-122.324188320524,"$339,000",https://www.rew.ca/properties/R2276685/103-2962-trethewey-street-abbotsford-bc,921
-459,54-32633 Simon Avenue,3,3,49.0533613,-122.3196455,"$529,000",https://www.rew.ca/properties/R2276830/54-32633-simon-avenue-abbotsford-bc,1285
-460,2062 Primrose Street,2,4,49.0393843,-122.3092206,"$729,900",https://www.rew.ca/properties/R2276747/2062-primrose-street-abbotsford-bc,2503
-461,448-2750 Fairlane Street,2,2,49.0523268,-122.3075434,"$369,000",https://www.rew.ca/properties/R2276373/448-2750-fairlane-street-abbotsford-bc,1040
-462,35465 Nakiska Court,3,5,49.0707039,-122.242132,"$929,800",https://www.rew.ca/properties/R2275900/35465-nakiska-court-abbotsford-bc,2670
-463,8-3087 Immel Street,3,3,49.0623735,-122.2665396,"$474,900",https://www.rew.ca/properties/R2276757/8-3087-immel-street-abbotsford-bc,1627
-464,104-33328 E Bourquin Crescent,2,2,,,"$419,999",https://www.rew.ca/properties/R2276951/104-33328-e-bourquin-crescent-abbotsford-bc,1014
-465,3543 Thurston Place,6,9,49.0668522,-122.346736,"$1,199,999",https://www.rew.ca/properties/R2276814/3543-thurston-place-abbotsford-bc,4960
-466,35605 Kahana Place,4,5,49.0473714,-122.2386152,"$1,380,000",https://www.rew.ca/properties/R2276607/35605-kahana-place-abbotsford-bc,4202
-467,1873 Viewgrove Place,6,5,,,"$1,248,000",https://www.rew.ca/properties/R2276364/1873-viewgrove-place-abbotsford-bc,5642
-468,2060 Riesling Drive,4,5,49.0396332,-122.4128413,"$1,050,000",https://www.rew.ca/properties/R2275855/2060-riesling-drive-abbotsford-bc,3282
-469,33-31517 Spur Avenue,3,4,49.0629044,-122.352953,"$619,900",https://www.rew.ca/properties/R2275862/33-31517-spur-avenue-abbotsford-bc,2869
-470,110-33480 George Ferguson Way,2,2,49.051289,-122.2978599,"$338,800",https://www.rew.ca/properties/R2276406/110-33480-george-ferguson-way-abbotsford-bc,995
-471,2167 Martens Street,5,8,49.0417165,-122.3516444,"$1,149,000",https://www.rew.ca/properties/R2276484/2167-martens-street-abbotsford-bc,4413
-472,412-2955 Diamond Crescent,2,2,49.05621515,-122.328618409248,"$398,700",https://www.rew.ca/properties/R2276421/412-2955-diamond-crescent-abbotsford-bc,950
-473,33794 Mayfair Avenue,2,4,49.0398233,-122.2879996,"$799,500",https://www.rew.ca/properties/R2275982/33794-mayfair-avenue-abbotsford-bc,1677
-474,5-35520 Mahogany Drive,3,3,49.0504652,-122.2440283,"$1,090,000",https://www.rew.ca/properties/R2276072/5-35520-mahogany-drive-abbotsford-bc,3768
-475,93-32633 Simon Avenue,3,2,49.0533613,-122.3196455,"$499,900",https://www.rew.ca/properties/R2276363/93-32633-simon-avenue-abbotsford-bc,1155
-476,305-2451 Gladwin Road,2,2,49.0500461,-122.3150798,"$360,000",https://www.rew.ca/properties/R2276216/305-2451-gladwin-road-abbotsford-bc,1414
-477,335-32830 George Ferguson Way,2,2,49.05507365,-122.314455532341,"$279,900",https://www.rew.ca/properties/R2275798/335-32830-george-ferguson-way-abbotsford-bc,931
-478,113-32725 George Ferguson Way,2,2,49.051289,-122.2978599,"$319,000",https://www.rew.ca/properties/R2275536/113-32725-george-ferguson-way-abbotsford-bc,893
-479,3361 Trethewey Street,4,6,49.0631974,-122.3273352,"$939,900",https://www.rew.ca/properties/R2275843/3361-trethewey-street-abbotsford-bc,3300
-480,206-33728 King Road,2,2,49.0306672,-122.2894728,"$324,900",https://www.rew.ca/properties/R2275239/206-33728-king-road-abbotsford-bc,947
-481,30482 Blueridge Drive,6,8,49.0676322,-122.3589632,"$1,349,888",https://www.rew.ca/properties/R2275305/30482-blueridge-drive-abbotsford-bc,4387
-482,110-32145 Old Yale Road,2,2,49.0481801,-122.2579657,"$362,000",https://www.rew.ca/properties/R2274758/110-32145-old-yale-road-abbotsford-bc,1304
-483,36004 Empress Lane,5,5,49.051713,-122.2277455,"$1,298,800",https://www.rew.ca/properties/R2283004/36004-empress-lane-abbotsford-bc,4616
-484,2770 Baldwin Road,4,6,49.0522812,-122.263711,"$899,000",https://www.rew.ca/properties/R2275366/2770-baldwin-road-abbotsford-bc,3717
-485,25-32959 George Ferguson Way,2,2,49.051289,-122.2978599,"$285,000",https://www.rew.ca/properties/R2274310/25-32959-george-ferguson-way-abbotsford-bc,1310
-486,30-36060 Old Yale Road,3,3,49.0481801,-122.2579657,"$469,000",https://www.rew.ca/properties/R2273016/30-36060-old-yale-road-abbotsford-bc,1370
-487,2522 Campbell Avenue,2,4,49.0496639,-122.2825891,"$695,700",https://www.rew.ca/properties/R2275014/2522-campbell-avenue-abbotsford-bc,1422
-488,E-2640 Larkspur Court,5,4,49.0496252,-122.2392747,"$1,489,000",https://www.rew.ca/properties/R2274993/e-2640-larkspur-court-abbotsford-bc,5191
-489,44-2525 Yale Court,4,4,49.0486452,-122.2681327,"$635,000",https://www.rew.ca/properties/R2275184/44-2525-yale-court-abbotsford-bc,2671
-490,210-33850 Fern Street,2,2,49.0370255,-122.286568011433,"$259,900",https://www.rew.ca/properties/R2274912/210-33850-fern-street-abbotsford-bc,1039
-491,2284 Hillside Drive,2,3,49.043434,-122.2916002,"$1,150,000",https://www.rew.ca/properties/R2275099/2284-hillside-drive-abbotsford-bc,2015
-492,27808 Quinton Avenue,3,4,49.0660781,-122.4488498,"$2,390,000",https://www.rew.ca/properties/R2274916/27808-quinton-avenue-abbotsford-bc,4044
-493,34366 George Ferguson Way,2,3,49.051289,-122.2978599,"$748,888",https://www.rew.ca/properties/R2274159/34366-george-ferguson-way-abbotsford-bc,1600
-494,16-32718 Garibaldi Drive,1,2,49.0578385,-122.3176302,"$345,000",https://www.rew.ca/properties/R2273694/16-32718-garibaldi-drive-abbotsford-bc,1145
-495,3622 Burnside Drive,3,4,49.0678675,-122.2482446,"$778,000",https://www.rew.ca/properties/R2274043/3622-burnside-drive-abbotsford-bc,2100
-496,207-2581 Langdon Street,2,2,49.0503629,-122.3308813,"$335,000",https://www.rew.ca/properties/R2274630/207-2581-langdon-street-abbotsford-bc,950
-497,307-2626 Countess Street,2,2,49.0505641,-122.339489736315,"$349,900",https://www.rew.ca/properties/R2274517/307-2626-countess-street-abbotsford-bc,1124
-498,2565 Railcar Crescent,5,6,49.0490948,-122.4588789,"$1,199,000",https://www.rew.ca/properties/R2274707/2565-railcar-crescent-abbotsford-bc,4325
-499,2978 Glencoe Place,3,5,49.0556897,-122.2530308,"$715,000",https://www.rew.ca/properties/R2274643/2978-glencoe-place-abbotsford-bc,2570
-500,26-36060 Old Yale Road,3,3,49.0481801,-122.2579657,"$467,000",https://www.rew.ca/properties/R2274461/26-36060-old-yale-road-abbotsford-bc,1441
-501,2734 Interprovincial Highway,3,6,49.0603482,-122.1096103,"$1,890,000",https://www.rew.ca/properties/R2273964/2734-interprovincial-highway-abbotsford-bc,3661
-502,30891 Sandpiper Place,3,5,49.0596768,-122.3675408,"$799,888",https://www.rew.ca/properties/R2274692/30891-sandpiper-place-abbotsford-bc,2461
-503,1824 Everett Road,4,5,49.0362144,-122.2545019,"$988,800",https://www.rew.ca/properties/R2274165/1824-everett-road-abbotsford-bc,3340
+,Address,Latitude,Longitude,Price,Webpage
+0, 126-34909 Old Yale Road  Abbotsford East Abbotsford  ,49.0081029,-122.1591938,"$365,900",https://www.rew.ca/properties/2530836/126-34909-old-yale-road-abbotsford-bc
+1, 315-3192 Gladwin Road  Central Abbotsford Abbotsford  ,49.0596631,-122.31562626178825,"$409,900",https://www.rew.ca/properties/2567908/315-3192-gladwin-road-abbotsford-bc
+2, 31-27735 Roundhouse Drive  Aberdeen Abbotsford  ,49.0560625,-122.4576762,"$549,900",https://www.rew.ca/properties/2592631/31-27735-roundhouse-drive-abbotsford-bc
+3, 21-32925 George Ferguson Way  Central Abbotsford Abbotsford  ,49.0550265,-122.3284994,"$399,999",https://www.rew.ca/properties/2592204/21-32925-george-ferguson-way-abbotsford-bc
+4, 2316 Southdale Crescent  Abbotsford West Abbotsford  ,49.0443632,-122.3475808,"$725,000",https://www.rew.ca/properties/2591570/2316-southdale-crescent-abbotsford-bc
+5, 12-3292 Vernon Terrace  Abbotsford East Abbotsford  ,49.0618097,-122.2586724,"$416,800",https://www.rew.ca/properties/2591708/12-3292-vernon-terrace-abbotsford-bc
+6, 35348 Wells Gray Avenue  Abbotsford East Abbotsford  ,49.0603943,-122.2461973,"$619,700",https://www.rew.ca/properties/2591576/35348-wells-gray-avenue-abbotsford-bc
+7, 102-32070 Peardonville Road  Abbotsford West Abbotsford  ,49.045379600000004,-122.33506204187006,"$224,900",https://www.rew.ca/properties/2591274/102-32070-peardonville-road-abbotsford-bc
+8, 108-2515 Park Drive  Central Abbotsford Abbotsford  ,49.0475763,-122.2809777,"$342,900",https://www.rew.ca/properties/2590784/108-2515-park-drive-abbotsford-bc
+9, 4-32955 Mill Lake Road  Central Abbotsford Abbotsford  ,49.0473687,-122.3111573,"$874,700",https://www.rew.ca/properties/2590838/4-32955-mill-lake-road-abbotsford-bc
+10, 3-32955 Mill Lake Road  Central Abbotsford Abbotsford  ,49.0473687,-122.3111573,"$774,700",https://www.rew.ca/properties/2590839/3-32955-mill-lake-road-abbotsford-bc
+11, 20-4295 Old Clayburn Road  Abbotsford East Abbotsford  ,49.0601145,-122.2642636,"$689,900",https://www.rew.ca/properties/2590034/20-4295-old-clayburn-road-abbotsford-bc
+12, 5291 Mt Lehman Road  Bradner Abbotsford  ,,,"$7,500,000",https://www.rew.ca/properties/2590788/5291-mt-lehman-road-abbotsford-bc
+13, 116-2955 Diamond Crescent  Abbotsford West Abbotsford  ,49.05621515,-122.32861840924816,"$359,000",https://www.rew.ca/properties/2590432/116-2955-diamond-crescent-abbotsford-bc
+14, 32588 Peardonville Road  Central Abbotsford Abbotsford  ,49.0468049,-122.352562,"$624,900",https://www.rew.ca/properties/2590309/32588-peardonville-road-abbotsford-bc
+15, 510-2485 Montrose Avenue  Central Abbotsford Abbotsford  ,49.047159300000004,-122.29082262726288,"$469,700",https://www.rew.ca/properties/2590031/510-2485-montrose-avenue-abbotsford-bc
+16, 32584 Peardonville Road  Central Abbotsford Abbotsford  ,49.0451618,-122.321371,"$624,900",https://www.rew.ca/properties/2589120/32584-peardonville-road-abbotsford-bc
+17, 3440 Creston Drive  Abbotsford West Abbotsford  ,49.0644727,-122.3369786,"$849,800",https://www.rew.ca/properties/2588489/3440-creston-drive-abbotsford-bc
+18, 31310 Fibish Place  Abbotsford West Abbotsford  ,49.0545014,-122.3545531,"$849,700",https://www.rew.ca/properties/2587975/31310-fibish-place-abbotsford-bc
+19, 414-2485 Montrose Avenue  Central Abbotsford Abbotsford  ,49.047159300000004,-122.29082262726288,"$469,900",https://www.rew.ca/properties/2587366/414-2485-montrose-avenue-abbotsford-bc
+20, 102-2435 Center Street  Abbotsford West Abbotsford  ,49.0467584,-122.3425767,"$337,500",https://www.rew.ca/properties/2587116/102-2435-center-street-abbotsford-bc
+21, 34858 Laburnum Avenue  Abbotsford East Abbotsford  ,,,"$608,000",https://www.rew.ca/properties/2586420/34858-laburnum-avenue-abbotsford-bc
+22, 101-3190 Gladwin Road  Central Abbotsford Abbotsford  ,49.05944385,-122.31425494651899,"$384,800",https://www.rew.ca/properties/2564698/101-3190-gladwin-road-abbotsford-bc
+23, 20-32925 Maclure Road  Central Abbotsford Abbotsford  ,49.0600722,-122.335067,"$500,000",https://www.rew.ca/properties/2589260/20-32925-maclure-road-abbotsford-bc
+24, 33331 Lynn Avenue  Central Abbotsford Abbotsford  ,49.0363991,-122.3008707,"$819,995",https://www.rew.ca/properties/2585972/33331-lynn-avenue-abbotsford-bc
+25, 3045 Princess Street  Abbotsford West Abbotsford  ,49.0578144,-122.3439087,"$699,900",https://www.rew.ca/properties/2585876/3045-princess-street-abbotsford-bc
+26, 412-2649 James Street  Abbotsford West Abbotsford  ,49.0511434,-122.3294802,"$459,000",https://www.rew.ca/properties/2585443/412-2649-james-street-abbotsford-bc
+27, 35921 Eaglecrest Place  Abbotsford East Abbotsford  ,49.0450397,-122.2290073,"$885,000",https://www.rew.ca/properties/2583857/35921-eaglecrest-place-abbotsford-bc
+28, 16-3055 Trafalgar Street  Central Abbotsford Abbotsford  ,49.0544173,-122.3090588,"$457,900",https://www.rew.ca/properties/2581798/16-3055-trafalgar-street-abbotsford-bc
+29, 37-2830 W Bourquin Crescent  Central Abbotsford Abbotsford  ,,,"$419,900",https://www.rew.ca/properties/2583645/37-2830-w-bourquin-crescent-abbotsford-bc
+30, 114-2515 Park Drive  Central Abbotsford Abbotsford  ,49.0475763,-122.2809777,"$258,800",https://www.rew.ca/properties/2583615/114-2515-park-drive-abbotsford-bc
+31, 82-1973 Winfield Drive  Abbotsford East Abbotsford  ,49.0404023,-122.2277738,"$489,900",https://www.rew.ca/properties/2582661/82-1973-winfield-drive-abbotsford-bc
+32, 34736 4 Avenue  Poplar Abbotsford  ,,,"$549,000",https://www.rew.ca/properties/2581372/34736-4-avenue-abbotsford-bc
+33, 2448 Sunrise Park Drive  Abbotsford East Abbotsford  ,49.0474697,-122.2219407,"$995,000",https://www.rew.ca/properties/2580104/2448-sunrise-park-drive-abbotsford-bc
+34, 103-1750 Mckenzie Road  Central Abbotsford Abbotsford  ,49.0296497,-122.2819999,"$269,785",https://www.rew.ca/properties/2578757/103-1750-mckenzie-road-abbotsford-bc
+35, 80-3290 Gladwin Road  Central Abbotsford Abbotsford  ,49.0502954,-122.3152207,"$898,000",https://www.rew.ca/properties/2578201/80-3290-gladwin-road-abbotsford-bc
+36, 211-3090 Gladwin Road  Central Abbotsford Abbotsford  ,49.0581244,-122.31510602273046,"$319,900",https://www.rew.ca/properties/2577105/211-3090-gladwin-road-abbotsford-bc
+37, 3983 Paradise Place  Abbotsford East Abbotsford  ,49.0734121,-122.2531525,"$1,089,999",https://www.rew.ca/properties/2575032/3983-paradise-place-abbotsford-bc
+38, 34938 Clayburn Road  Abbotsford East Abbotsford  ,49.0818533,-122.2834549,"$499,000",https://www.rew.ca/properties/2575024/34938-clayburn-road-abbotsford-bc
+39, 34930 Clayburn Road  Abbotsford East Abbotsford  ,49.0818533,-122.2834549,"$599,000",https://www.rew.ca/properties/2574828/34930-clayburn-road-abbotsford-bc
+40, 27615 Porter Drive  Aberdeen Abbotsford  ,49.0592437,-122.4566045,"$899,900",https://www.rew.ca/properties/2574514/27615-porter-drive-abbotsford-bc
+41, 206-33668 King Road  Poplar Abbotsford  ,49.0308236,-122.3266547,"$299,900",https://www.rew.ca/properties/2574106/206-33668-king-road-abbotsford-bc
+42, 405-2485 Montrose Avenue  Central Abbotsford Abbotsford  ,49.047159300000004,-122.29082262726288,"$344,900",https://www.rew.ca/properties/2574078/405-2485-montrose-avenue-abbotsford-bc
+43, 2683 Locarno Court  Abbotsford East Abbotsford  ,49.0500738,-122.2502385,"$2,098,000",https://www.rew.ca/properties/2574053/2683-locarno-court-abbotsford-bc
+44, 101-3190 Gladwin Road  Central Abbotsford Abbotsford  ,49.05944385,-122.31425494651899,"$384,800",https://www.rew.ca/properties/2564698/101-3190-gladwin-road-abbotsford-bc
+45, 901-33065 Mill Lake Road  Central Abbotsford Abbotsford  ,49.0487188,-122.3075478,"$549,900",https://www.rew.ca/properties/2564747/901-33065-mill-lake-road-abbotsford-bc
+46, 34639 Currie Place  Abbotsford East Abbotsford  ,49.0506661,-122.2637179,"$750,000",https://www.rew.ca/properties/2573936/34639-currie-place-abbotsford-bc
+47, 34910 Mcleod Avenue  Abbotsford East Abbotsford  ,49.0537425,-122.2604359,"$763,500",https://www.rew.ca/properties/2573386/34910-mcleod-avenue-abbotsford-bc
+48, 203-3172 Gladwin Road  Central Abbotsford Abbotsford  ,49.05885055,-122.31326511914494,"$337,900",https://www.rew.ca/properties/2571696/203-3172-gladwin-road-abbotsford-bc
+49, 2532 E Bourquin Crescent  Central Abbotsford Abbotsford  ,,,"$1,590,000",https://www.rew.ca/properties/2571570/2532-e-bourquin-crescent-abbotsford-bc
+50, 2752 Eagle Mountain Drive  Abbotsford East Abbotsford  ,49.0455196,-122.2501215,"$1,168,000",https://www.rew.ca/properties/2571342/2752-eagle-mountain-drive-abbotsford-bc
+51, D-33871 Marshall Road  Central Abbotsford Abbotsford  ,49.0385703,-122.3555104,"$414,900",https://www.rew.ca/properties/2571030/d-33871-marshall-road-abbotsford-bc
+52, 9-2952 Nelson Place  Central Abbotsford Abbotsford  ,49.0502982,-122.29525032127623,"$454,900",https://www.rew.ca/properties/2571011/9-2952-nelson-place-abbotsford-bc
+53, 12-33110 George Ferguson Way  Central Abbotsford Abbotsford  ,49.0550265,-122.3284994,"$269,900",https://www.rew.ca/properties/2570762/12-33110-george-ferguson-way-abbotsford-bc
+54, 2330 Sentinel Drive  Central Abbotsford Abbotsford  ,49.0435125,-122.2738487,"$675,000",https://www.rew.ca/properties/2570726/2330-sentinel-drive-abbotsford-bc
+55, 30612 Crestview Avenue  Abbotsford West Abbotsford  ,49.0657632,-122.3771504,"$824,900",https://www.rew.ca/properties/2570713/30612-crestview-avenue-abbotsford-bc
+56, 302-33110 George Ferguson Way  Central Abbotsford Abbotsford  ,49.0550265,-122.3284994,"$274,900",https://www.rew.ca/properties/2570678/302-33110-george-ferguson-way-abbotsford-bc
+57, 4-2991 Trethewey Street  Abbotsford West Abbotsford  ,49.0565409,-122.3272795,"$189,000",https://www.rew.ca/properties/2569464/4-2991-trethewey-street-abbotsford-bc
+58, LT.5-37885 Bakstad Road  Sumas Mountain Abbotsford  ,,,"$1,799,000",https://www.rew.ca/properties/2568799/lt-5-37885-bakstad-road-abbotsford-bc
+59, 109-32725 George Ferguson Way  Abbotsford West Abbotsford  ,49.0550265,-122.3284994,"$344,000",https://www.rew.ca/properties/2566803/109-32725-george-ferguson-way-abbotsford-bc
+60, 41-35287 Old Yale Road  Abbotsford East Abbotsford  ,,,"$509,900",https://www.rew.ca/properties/2567982/41-35287-old-yale-road-abbotsford-bc
+61, 315-3192 Gladwin Road  Central Abbotsford Abbotsford  ,49.0596631,-122.31562626178825,"$409,900",https://www.rew.ca/properties/2567908/315-3192-gladwin-road-abbotsford-bc
+62, 133-4595 Sumas Mountain Road  Abbotsford East Abbotsford  ,49.1260573,-122.2201465,"$949,700",https://www.rew.ca/properties/2567494/133-4595-sumas-mountain-road-abbotsford-bc
+63, 130-4595 Sumas Mountain Road  Abbotsford East Abbotsford  ,49.1260573,-122.2201465,"$924,700",https://www.rew.ca/properties/2567364/130-4595-sumas-mountain-road-abbotsford-bc
+64, 2340 Broadway Street  Abbotsford West Abbotsford  ,49.0443991,-122.3226269,"$424,900",https://www.rew.ca/properties/2567173/2340-broadway-street-abbotsford-bc
+65, 141-4595 Sumas Mountain Road  Abbotsford East Abbotsford  ,49.1260573,-122.2201465,"$909,700",https://www.rew.ca/properties/2567066/141-4595-sumas-mountain-road-abbotsford-bc
+66, 2752 Eagle Mountain Drive  Abbotsford East Abbotsford  ,49.0455196,-122.2501215,"$1,168,000",https://www.rew.ca/properties/2571342/2752-eagle-mountain-drive-abbotsford-bc
+67, 101-3190 Gladwin Road  Central Abbotsford Abbotsford  ,49.05944385,-122.31425494651899,"$384,800",https://www.rew.ca/properties/2564698/101-3190-gladwin-road-abbotsford-bc
+68, 132-4595 Sumas Mountain Road  Abbotsford East Abbotsford  ,49.1260573,-122.2201465,"$934,700",https://www.rew.ca/properties/2567013/132-4595-sumas-mountain-road-abbotsford-bc
+69, 103-33870 Fern Street  Central Abbotsford Abbotsford  ,49.03704475,-122.28550179997958,"$219,900",https://www.rew.ca/properties/2566823/103-33870-fern-street-abbotsford-bc
+70, 301-2450 Church Street  Abbotsford West Abbotsford  ,49.0460005,-122.3349267,"$349,700",https://www.rew.ca/properties/2565474/301-2450-church-street-abbotsford-bc
+71, 104-32669 George Ferguson Way  Abbotsford West Abbotsford  ,49.0550265,-122.3284994,"$274,700",https://www.rew.ca/properties/2565417/104-32669-george-ferguson-way-abbotsford-bc
+72, 412-2860 Trethewey Street  Abbotsford West Abbotsford  ,49.0601099,-122.3269446,"$379,900",https://www.rew.ca/properties/2564560/412-2860-trethewey-street-abbotsford-bc
+73, 901-33065 Mill Lake Road  Central Abbotsford Abbotsford  ,49.0487188,-122.3075478,"$549,900",https://www.rew.ca/properties/2564747/901-33065-mill-lake-road-abbotsford-bc
+74, 35445 Eagle Summit Drive  Abbotsford East Abbotsford  ,49.0514213,-122.2434193,"$1,159,800",https://www.rew.ca/properties/2564705/35445-eagle-summit-drive-abbotsford-bc
+75, 101-3190 Gladwin Road  Central Abbotsford Abbotsford  ,49.05944385,-122.31425494651899,"$384,800",https://www.rew.ca/properties/2564698/101-3190-gladwin-road-abbotsford-bc
+76, 32558 Ridgeway Street  Central Abbotsford Abbotsford  ,49.044401,-122.3215347,"$424,900",https://www.rew.ca/properties/2561973/32558-ridgeway-street-abbotsford-bc
+77, 3493 Okanagan Drive  Abbotsford West Abbotsford  ,49.0653681,-122.3210453,"$829,900",https://www.rew.ca/properties/2563839/3493-okanagan-drive-abbotsford-bc
+78, 2-2456 Ware Street  Central Abbotsford Abbotsford  ,49.0443664,-122.3044922,"$259,900",https://www.rew.ca/properties/2562980/2-2456-ware-street-abbotsford-bc
+79, 116-32445 Simon Avenue  Abbotsford West Abbotsford  ,49.0533866,-122.319593,"$485,900",https://www.rew.ca/properties/2561669/116-32445-simon-avenue-abbotsford-bc
+80, 116-1755 Salton Road  Central Abbotsford Abbotsford  ,49.03532,-122.287679,"$369,900",https://www.rew.ca/properties/2562968/116-1755-salton-road-abbotsford-bc
+81, 2733 Eagle Summit Crescent  Abbotsford East Abbotsford  ,49.0519346,-122.2439236,"$1,439,000",https://www.rew.ca/properties/2561188/2733-eagle-summit-crescent-abbotsford-bc
+82, 207-2853 W Bourquin Crescent  Central Abbotsford Abbotsford  ,,,"$232,700",https://www.rew.ca/properties/2560874/207-2853-w-bourquin-crescent-abbotsford-bc
+83, 612-2649 James Street  Abbotsford West Abbotsford  ,49.0511434,-122.3294802,"$499,999",https://www.rew.ca/properties/2560881/612-2649-james-street-abbotsford-bc
+84, 157-3160 Townline Road  Abbotsford West Abbotsford  ,49.0541345,-122.3600148,"$555,000",https://www.rew.ca/properties/2560046/157-3160-townline-road-abbotsford-bc
+85, 35408 Eagle Summit Drive  Abbotsford East Abbotsford  ,49.0514213,-122.2434193,"$1,998,000",https://www.rew.ca/properties/2560050/35408-eagle-summit-drive-abbotsford-bc
+86, 305-32119 Old Yale Road  Abbotsford West Abbotsford  ,49.0081029,-122.1591938,"$234,700",https://www.rew.ca/properties/2559926/305-32119-old-yale-road-abbotsford-bc
+87, 113-2943 Nelson Place  Central Abbotsford Abbotsford  ,49.0502982,-122.29525032127623,"$299,900",https://www.rew.ca/properties/2557698/113-2943-nelson-place-abbotsford-bc
